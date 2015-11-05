@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.0"
+	targetNamespace="http://www.example.org/LogicalDevices" xmlns="http://www.example.org/LogicalDevices">
+
+	<xs:annotation>
+		<xs:appinfo>
+			<jaxb:schemaBindings>
+				<jaxb:package name="org.openhab.binding.rwe.devices" />
+			</jaxb:schemaBindings>
+		</xs:appinfo>
+	</xs:annotation>
+
+
+	<xs:element name="LDs">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="LD" type="LogicalDevices" maxOccurs="unbounded">
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+
+	<!-- LogicalDevices -->
+	<xs:complexType name="LogicalDevices" abstract="true">
+		<xs:sequence>
+			<xs:element name="Id" type="xs:string"></xs:element>
+			<xs:element name="BDId" type="xs:string"></xs:element>
+			<xs:element name="ActCls" type="xs:string"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="Name" type="xs:string"></xs:attribute>
+		<xs:attribute name="LCID" type="xs:string"></xs:attribute>
+	</xs:complexType>
+
+	<!-- ThermostatActuator -->
+	<xs:complexType name="ThermostatActuator">
+		<xs:complexContent>
+			<xs:extension base="LogicalDevices">
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- ValveActuator -->
+	<xs:complexType name="ValveActuator">
+		<xs:complexContent>
+			<xs:extension base="LogicalDevices">
+				<xs:sequence>
+					<xs:element type="xs:byte" name="ValveIndex" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- RoomTemperatureActuator -->
+	<xs:complexType name="RoomTemperatureActuator">
+		<xs:complexContent>
+			<xs:extension base="LogicalDevices">
+				<xs:sequence>
+					<xs:element name="DOfStgs" type="DOfStgs" minOccurs="0" />
+					<xs:element name="UDvIds" type="UDvIds" minOccurs="0" />
+					<xs:element type="xs:float" name="MxTp" minOccurs="0" />
+					<xs:element type="xs:float" name="MnTp" minOccurs="0" />
+					<xs:element type="xs:byte" name="PhFct" minOccurs="0" />
+					<xs:element type="xs:string" name="WLck" minOccurs="0" />
+					<xs:element type="xs:string" name="RLck" minOccurs="0" />
+					<xs:element type="xs:string" name="FPrA" minOccurs="0" />
+					<xs:element type="xs:float" name="FPr" minOccurs="0" />
+					<xs:element type="xs:string" name="MPrA" minOccurs="0" />
+					<xs:element type="xs:float" name="HMPr" minOccurs="0" />
+					<xs:element type="xs:byte" name="WOpTp" minOccurs="0" />
+					<xs:element type="xs:string" name="DCTmp" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="DOfStgs" abstract="true">
+		<xs:sequence>
+			<xs:element type="xs:string" name="Id" />
+			<xs:element type="xs:string" name="AcId" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- RoomTemperatureActuatorSettings -->
+	<xs:complexType name="RoomTemperatureActuatorSettings">
+		<xs:complexContent>
+			<xs:extension base="DOfStgs">
+				<xs:sequence>
+					<xs:element type="xs:float" name="PtTmp" minOccurs="0" />
+					<xs:element type="xs:string" name="WndRd" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- TemperatureSensor -->
+	<xs:complexType name="TemperatureSensor">
+		<xs:complexContent>
+			<xs:extension base="LogicalDevices" />
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- TemperatureSensor -->
+	<xs:complexType name="RoomTemperatureSensor">
+		<xs:complexContent>
+			<xs:extension base="LogicalDevices">
+				<xs:sequence>
+					<xs:element name="UDvIds" type="UDvIds" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- HumiditySensor -->
+	<xs:complexType name="HumiditySensor">
+		<xs:complexContent>
+			<xs:extension base="LogicalDevices" />
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- RoomHumiditySensor -->
+	<xs:complexType name="RoomHumiditySensor">
+		<xs:complexContent>
+			<xs:extension base="LogicalDevices">
+				<xs:sequence>
+					<xs:element name="UDvIds" type="UDvIds" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- WindowDoorSensor -->
+	<xs:complexType name="WindowDoorSensor">
+		<xs:complexContent>
+			<xs:extension base="LogicalDevices">
+				<xs:sequence>
+					<xs:element type="xs:string" name="Installation"
+						minOccurs="0" />
+					<xs:element type="xs:byte" name="EventFilterTime"
+						minOccurs="0" />
+					<xs:element type="xs:string" name="WOpFunc" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- DimmerActuator -->
+	<xs:complexType name="DimmerActuator">
+		<xs:complexContent>
+			<xs:extension base="LogicalDevices">
+				<xs:sequence>
+					<xs:element name="DOfStgs" type="DOfStgs" minOccurs="0" />
+					<xs:element type="xs:byte" name="TMxV" minOccurs="0" />
+					<xs:element type="xs:byte" name="TMnV" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- DimmerActuatorSettings -->
+	<xs:complexType name="DimmerActuatorSettings">
+		<xs:complexContent>
+			<xs:extension base="DOfStgs">
+				<xs:sequence>
+					<xs:element type="xs:byte" name="DmLvl" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- PushButtonSensor -->
+	<xs:complexType name="PushButtonSensor">
+		<xs:complexContent>
+			<xs:extension base="LogicalDevices">
+				<xs:sequence>
+					<xs:element type="xs:byte" name="ButtonCount" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- MotionDetectionSensor -->
+	<xs:complexType name="MotionDetectionSensor">
+		<xs:complexContent>
+			<xs:extension base="LogicalDevices" />
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- LuminanceSensor -->
+	<xs:complexType name="LuminanceSensor">
+		<xs:complexContent>
+			<xs:extension base="LogicalDevices" />
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- SwitchActuator -->
+	<xs:complexType name="SwitchActuator">
+		<xs:complexContent>
+			<xs:extension base="LogicalDevices">
+				<xs:sequence>
+					<xs:element name="DOfStgs" type="DOfStgs" minOccurs="0" />
+					<xs:element type="xs:string" name="SensingBehavior"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- RoomTemperatureActuatorSettings -->
+	<xs:complexType name="SwitchActuatorSettings">
+		<xs:complexContent>
+			<xs:extension base="DOfStgs">
+				<xs:sequence>
+					<xs:element type="xs:string" name="IsOn" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="UDvIds">
+		<xs:sequence>
+			<xs:element type="xs:string" name="guid" maxOccurs="unbounded"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

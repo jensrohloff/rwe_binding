@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<BaseResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:type="GetAllLogicalDeviceStatesResponse" Version="1.70"
+		CorrespondingRequestId="2b7fc2f9-8d04-4dd3-ba5c-30ab3e1c89fe" Result="Ok">
+		<States>
+			<LogicalDeviceState xsi:type="DimmerActuatorState"
+				LID="80d48092-cbe2-4517-bf3b-7d72cea04bae" DmLvl="0" />
+			<LogicalDeviceState xsi:type="SwitchActuatorState"
+				LID="c277ea26-2338-4fb0-af91-99e31f2af314" IsOn="False" />
+			<LogicalDeviceState xsi:type="DimmerActuatorState"
+				LID="1e5db15c-ef67-4d77-82d0-88f4e02a42c8" DmLvl="10" />
+			<LogicalDeviceState xsi:type="DimmerActuatorState"
+				LID="4d15a6c1-188b-4b53-8f64-83b53ae1a578" DmLvl="0" />
+			<LogicalDeviceState xsi:type="RoomTemperatureActuatorState"
+				LID="6129a701-5ba5-4a17-b703-47c5128f6ad1" PtTmp="15.0" OpnMd="Auto"
+				WRAc="False" />
+			<LogicalDeviceState xsi:type="RoomTemperatureSensorState"
+				LID="5d9b0d57-a49e-4082-b999-5463a4827edf" Temperature="17.6" />
+			<LogicalDeviceState xsi:type="RoomHumiditySensorState"
+				LID="25de9434-caf9-439c-919d-90e4edfb55fe" Humidity="50.333333333333333333333333333" />
+			<LogicalDeviceState xsi:type="RoomTemperatureActuatorState"
+				LID="c645db7a-4469-4096-9598-d3ce3af2c231" PtTmp="15.0" OpnMd="Auto"
+				WRAc="False" />
+			<LogicalDeviceState xsi:type="RoomTemperatureSensorState"
+				LID="add1aaf5-df3f-4340-b798-91d98f093a7e" Temperature="18.4" />
+			<LogicalDeviceState xsi:type="RoomHumiditySensorState"
+				LID="680eb53e-6b1e-48b1-8253-2be9167aac40" Humidity="50" />
+			<LogicalDeviceState xsi:type="RoomTemperatureActuatorState"
+				LID="5b6aec0f-0073-4b8f-8df8-55d359dfde33" PtTmp="15.0" OpnMd="Auto"
+				WRAc="False" />
+			<LogicalDeviceState xsi:type="RoomTemperatureSensorState"
+				LID="881a83c9-9bac-4ecf-9828-01e1ea83d718" Temperature="17.9" />
+			<LogicalDeviceState xsi:type="RoomHumiditySensorState"
+				LID="e5549b78-5a7d-4680-a250-973e91a26346" Humidity="61" />
+			<LogicalDeviceState xsi:type="LuminanceSensorState"
+				LID="2c430a0e-632b-4b70-8a9f-88a18e336ace">
+				<Luminance>75</Luminance>
+				<LuminanceProperty Name="Luminance" Value="75" />
+			</LogicalDeviceState>
+			<LogicalDeviceState xsi:type="RoomTemperatureActuatorState"
+				LID="12850f10-a320-4733-a2e0-6f5c835edd23" PtTmp="15.0" OpnMd="Auto"
+				WRAc="False" />
+			<LogicalDeviceState xsi:type="RoomTemperatureSensorState"
+				LID="cecaafad-901f-4b9e-b20f-5a7dbe04f2d8" Temperature="19.5" />
+			<LogicalDeviceState xsi:type="RoomHumiditySensorState"
+				LID="902930a7-1c2d-48f0-9c1b-bdef305c78b2" Humidity="54.5" />
+			<LogicalDeviceState xsi:type="RoomTemperatureActuatorState"
+				LID="413b1399-7a09-4ac3-aebd-91687369f8a9" PtTmp="6.0" OpnMd="Manu"
+				WRAc="False" />
+			<LogicalDeviceState xsi:type="RoomTemperatureSensorState"
+				LID="8383b777-95d1-40fc-a0c8-d464dad6a8e8" Temperature="13.5" />
+			<LogicalDeviceState xsi:type="RoomHumiditySensorState"
+				LID="db4330d5-48b1-4687-9e32-8625a61078fc" Humidity="60.5" />
+			<LogicalDeviceState xsi:type="RoomTemperatureActuatorState"
+				LID="3cd16563-e9b4-47b1-b4b6-0ac7dd437f6b" PtTmp="19.0" OpnMd="Auto"
+				WRAc="False" />
+			<LogicalDeviceState xsi:type="RoomHumiditySensorState"
+				LID="463a99ec-3d2d-441e-a357-682b4ee63292" Humidity="49.5" />
+			<LogicalDeviceState xsi:type="RoomTemperatureSensorState"
+				LID="ae4fb066-0ed2-4d04-8abe-4ef630febd88" Temperature="19.2" />
+			<LogicalDeviceState xsi:type="RoomTemperatureActuatorState"
+				LID="b76e18a1-7de9-4cc4-b140-b2a3155d0ce0" PtTmp="15.0" OpnMd="Auto"
+				WRAc="False" />
+			<LogicalDeviceState xsi:type="RoomTemperatureSensorState"
+				LID="8ef9b254-2899-4d57-8163-7b288f504bff" Temperature="16.7" />
+			<LogicalDeviceState xsi:type="RoomHumiditySensorState"
+				LID="1519373e-6566-4db0-991e-3be5f3390d65" Humidity="55" />
+			<LogicalDeviceState xsi:type="RoomTemperatureActuatorState"
+				LID="889613f1-3873-4a11-b1c7-1b393f8b6963" PtTmp="15.0" OpnMd="Auto"
+				WRAc="False" />
+			<LogicalDeviceState xsi:type="RoomTemperatureSensorState"
+				LID="1abafa4c-e5c0-4aaa-a312-4d5b4d07a6fc" Temperature="16.2" />
+			<LogicalDeviceState xsi:type="RoomHumiditySensorState"
+				LID="338b09d9-73ca-4bdc-80fb-243baf6a6ab0" Humidity="56.5" />
+			<LogicalDeviceState xsi:type="RoomTemperatureActuatorState"
+				LID="41f3fb55-a28b-449a-9a96-86cc3a9ff632" PtTmp="20.0" OpnMd="Auto"
+				WRAc="False" />
+			<LogicalDeviceState xsi:type="RoomTemperatureSensorState"
+				LID="2880b475-1390-418b-8b82-068e84c79a03" Temperature="21.2" />
+			<LogicalDeviceState xsi:type="RoomHumiditySensorState"
+				LID="15f7a24e-ddec-43ee-9671-652693d15cde" Humidity="46" />
+			<LogicalDeviceState xsi:type="RoomTemperatureActuatorState"
+				LID="20062c1d-e983-4132-ba94-af99b8483ad7" PtTmp="14.0" OpnMd="Auto"
+				WRAc="False" />
+			<LogicalDeviceState xsi:type="RoomTemperatureSensorState"
+				LID="024480dc-2f4b-4333-98c7-08deaca16ecc" Temperature="20.7" />
+			<LogicalDeviceState xsi:type="RoomHumiditySensorState"
+				LID="a8dd372a-b9f5-40dc-8af6-3544b51e5f78" Humidity="41" />
+			<LogicalDeviceState xsi:type="RoomTemperatureActuatorState"
+				LID="c7471a3d-751a-45dc-a467-dd88a4e9c0d6" PtTmp="15.0" OpnMd="Auto"
+				WRAc="False" />
+			<LogicalDeviceState xsi:type="RoomTemperatureSensorState"
+				LID="5de1e0cd-4ae9-430d-ac30-f1a9f35db17a" Temperature="18.3" />
+			<LogicalDeviceState xsi:type="RoomHumiditySensorState"
+				LID="ba1f32ce-a9d6-4152-9ed4-ded4426aba7b" Humidity="49" />
+			<LogicalDeviceState xsi:type="WindowDoorSensorState"
+				LID="3a4063d2-5bcd-4772-bc9b-c4d645f56d40">
+				<IsOpen>false</IsOpen>
+			</LogicalDeviceState>
+			<LogicalDeviceState xsi:type="WindowDoorSensorState"
+				LID="a3d93716-957c-4bdc-8f2f-9449393b2172">
+				<IsOpen>false</IsOpen>
+			</LogicalDeviceState>
+			<LogicalDeviceState xsi:type="WindowDoorSensorState"
+				LID="832d6c58-e058-4fb6-a25f-ef21c187df99">
+				<IsOpen>false</IsOpen>
+			</LogicalDeviceState>
+			<LogicalDeviceState xsi:type="WindowDoorSensorState"
+				LID="128c87b6-cfa3-403d-825b-7b6101215579">
+				<IsOpen>false</IsOpen>
+			</LogicalDeviceState>
+			<LogicalDeviceState xsi:type="WindowDoorSensorState"
+				LID="35549ee6-3989-416e-8201-130921e6ff43">
+				<IsOpen>false</IsOpen>
+			</LogicalDeviceState>
+			<LogicalDeviceState xsi:type="WindowDoorSensorState"
+				LID="117d3b61-2d27-4b01-b8b3-69df20cd9523">
+				<IsOpen>false</IsOpen>
+			</LogicalDeviceState>
+			<LogicalDeviceState xsi:type="DimmerActuatorState"
+				LID="beb47b9c-15f8-4d0c-b852-22c0c8cd7b2b" DmLvl="0" />
+			<LogicalDeviceState xsi:type="WindowDoorSensorState"
+				LID="d52cea7b-80f9-4414-9984-caa9e5d2e325">
+				<IsOpen>false</IsOpen>
+			</LogicalDeviceState>
+			<LogicalDeviceState xsi:type="WindowDoorSensorState"
+				LID="dda8a503-dd18-40b2-978c-3064b77d579d">
+				<IsOpen>false</IsOpen>
+			</LogicalDeviceState>
+			<LogicalDeviceState xsi:type="WindowDoorSensorState"
+				LID="68447207-de31-4406-a787-b7f1d201382a">
+				<IsOpen>false</IsOpen>
+			</LogicalDeviceState>
+			<LogicalDeviceState xsi:type="SwitchActuatorState"
+				LID="9edbc127-7b4f-4575-9f5e-344d57cd27ec" IsOn="False" />
+			<LogicalDeviceState xsi:type="SwitchActuatorState"
+				LID="e7212e7b-7fa7-4758-940e-f0d528cdff4a" IsOn="False" />
+			<LogicalDeviceState xsi:type="DimmerActuatorState"
+				LID="bf947644-6f71-4b04-a5d0-e593d124522d" DmLvl="0" />
+		</States>
+	</BaseResponse>
+</Response>

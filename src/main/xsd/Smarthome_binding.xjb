@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:annox="http://annox.dev.java.net"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/jaxb http://java.sun.com/xml/ns/jaxb/bindingschema_2_0.xsd"
+	jaxb:extensionBindingPrefixes="xjc annox" version="2.1">
+	<jaxb:globalBindings>
+		<jaxb:serializable uid="1" />
+		<xjc:simple />
+	</jaxb:globalBindings>
+	<jaxb:bindings schemaLocation="LogicalDeviceStates.xsd">
+		<jaxb:bindings node="//xs:element[@name='LuminanceProperty']">
+			<jaxb:bindings node=".//xs:attribute[@name='Value']">
+				<jaxb:property name="ValueAttribute" />
+			</jaxb:bindings>
+		</jaxb:bindings>
+		<jaxb:bindings node=".//xs:attribute[@name='IsOn']">
+			<jaxb:property>
+				<jaxb:baseType>
+					<jaxb:javaType name="java.lang.Boolean"
+						printMethod="org.openhab.binding.rwe.internal.binding.xml.BooleanFormater.printBoolean" 
+						parseMethod="org.openhab.binding.rwe.internal.binding.xml.BooleanFormater.parseBoolean"/>
+				</jaxb:baseType>
+			</jaxb:property>
+		</jaxb:bindings>
+
+	</jaxb:bindings>
+	<jaxb:bindings schemaLocation="Smarthome_Request.xsd">
+		<jaxb:bindings node="//xs:complexType[@name='BaseRequest']">
+			<jaxb:bindings node=".//xs:attribute[@name='Version']">
+				<jaxb:property>
+					<jaxb:baseType>
+						<jaxb:javaType name="java.lang.Float"
+							printMethod="org.openhab.binding.rwe.internal.binding.xml.NumberFormater.printFloatwith2Decimal" />
+					</jaxb:baseType>
+				</jaxb:property>
+			</jaxb:bindings>
+		</jaxb:bindings>
+	</jaxb:bindings>
+</jaxb:bindings>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+ targetNamespace="http://www.example.org/Response"
+    xmlns="http://www.example.org/Response"
+               jaxb:version="2.0"   xmlns:loc="http://www.example.org/Location"
+               xmlns:states="http://www.example.org/LogicalDeviceStates"
+               xmlns:devices="http://www.example.org/LogicalDevices">
+
+	
+	<xs:annotation>
+  <xs:appinfo>
+    <jaxb:schemaBindings >
+      <jaxb:package name="org.openhab.binding.rwe.response"/>
+    </jaxb:schemaBindings>
+  </xs:appinfo>
+</xs:annotation>
+ <xs:import namespace="http://www.example.org/Location" schemaLocation="Location.xsd"/>
+ <xs:import namespace="http://www.example.org/LogicalDeviceStates" schemaLocation="LogicalDeviceStates.xsd"/>
+ <xs:import namespace="http://www.example.org/LogicalDevices" schemaLocation="LogicalDevices.xsd"/>
+	<xs:element name="Response" type="Response" />
+
+	<xs:complexType name="Response">
+		<xs:sequence>
+			<xs:element name="BaseResponse" type="BaseResponse"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<xs:complexType name="BaseResponse" abstract="true">
+		<xs:attribute name="Version" type="xs:decimal" />
+		<xs:attribute name="CorrespondingRequestId" type="xs:normalizedString" />
+		<xs:attribute name="SessionId" type="xs:normalizedString" />
+		<xs:attribute name="CurrentConfigurationVersion" type="xs:int" />
+	</xs:complexType>
+
+	<!-- ControllResponse -->
+	<xs:complexType name="ControlResultResponse">
+		<xs:complexContent>
+			<xs:extension base="BaseResponse">
+				<xs:attribute name="Result" type="xs:normalizedString" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!-- AcknowledgeResponse -->
+	<xs:complexType name="AcknowledgeResponse">
+		<xs:complexContent>
+			<xs:extension base="BaseResponse" />
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- AuthenticationErrorResponse -->
+	<xs:complexType name="AuthenticationErrorResponse">
+		<xs:complexContent>
+			<xs:extension base="BaseResponse">
+				<xs:attribute name="Error" type="xs:normalizedString" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!-- LoginResponse -->
+	<xs:complexType name="LoginResponse">
+		<xs:complexContent>
+			<xs:extension base="BaseResponse">
+				<xs:sequence>
+					<xs:element name="UserRoles">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="ShcRole" type="ShcRole" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="ShcOperatingMode" type="xs:string"></xs:attribute>
+				<xs:attribute name="TokenHash" type="xs:string"></xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="ShcRole">
+		<xs:sequence>
+			<xs:element name="Id" type="xs:string"></xs:element>
+			<xs:element name="Name" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- GetEntitiesResponse -->
+	<xs:complexType name="GetEntitiesResponse">
+		<xs:complexContent>
+			<xs:extension base="BaseResponse">
+				<xs:sequence>
+					<xs:element name="LCs">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="LC" type="loc:Location"
+									maxOccurs="unbounded">
+								</xs:element>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="LDs">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="LD" type="devices:LogicalDevices"
+									maxOccurs="unbounded">
+								</xs:element>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>					
+					<!-- xs:element name="PFs" type="PFs" /> <xs:element name="BDs" type="BDs" 
+						/> <xs:element name="AcCts" type="AcCts" / -->
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- BaseDevice ignore-->
+	<xs:complexType name="BDs">
+		<xs:sequence>
+			<xs:element name="BD" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Id" type="xs:string"></xs:element>
+						<xs:element name="AIPs">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="Ppt">
+										<xs:complexType>
+											<xs:attribute name="Name" type="xs:string"></xs:attribute>
+											<xs:attribute name="Value" type="xs:string"></xs:attribute>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="PrSPpts"></xs:element>
+					</xs:sequence>
+					<xs:attribute name="FN" type="xs:int"></xs:attribute>
+					<xs:attribute name="PrId" type="xs:string"></xs:attribute>
+					<xs:attribute name="AppId" type="xs:string"></xs:attribute>
+					<xs:attribute name="TOD" type="xs:string"></xs:attribute>
+					<xs:attribute name="TOA" type="xs:string"></xs:attribute>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- Profiles ignore -->
+	<xs:complexType name="PFs">
+		<xs:sequence>
+			<xs:element name="PF" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Id" type="xs:string"></xs:element>
+						<xs:element name="Name" type="xs:string"></xs:element>
+						<xs:element name="State" type="xs:string"></xs:element>
+						<xs:element name="LCID" type="xs:string"></xs:element>
+						<xs:element name="AcCtIds"></xs:element>
+						<xs:element name="SPts">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="Spt" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="Id" type="xs:string"></xs:element>
+												<xs:element name="Wdy" type="xs:string"></xs:element>
+												<xs:element name="Tm" type="xs:dateTime"></xs:element>
+												<xs:element name="AcStgs">
+													<xs:complexType>
+														<xs:sequence>
+															<xs:element name="AcStg" maxOccurs="unbounded">
+																<xs:complexType>
+																	<xs:sequence>
+																		<xs:element name="Id" type="xs:string"></xs:element>
+																		<xs:element name="AcId" type="xs:string"></xs:element>
+																		<xs:element name="PtTmp" type="xs:int"></xs:element>
+																		<xs:element name="WndRd" type="xs:string"></xs:element>
+																	</xs:sequence>
+																</xs:complexType>
+															</xs:element>
+														</xs:sequence>
+													</xs:complexType>
+												</xs:element>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="IsVisible" type="xs:string"></xs:attribute>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- ActuatorContainers ignore -->
+	<xs:complexType name="AcCts">
+		<xs:sequence>
+			<xs:element name="AcCt" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Id" type="xs:string"></xs:element>
+						<xs:element name="Name" type="xs:string"></xs:element>
+						<xs:element name="LCID" type="xs:string"></xs:element>
+						<xs:element name="AcIds">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="guid" type="xs:string"></xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- GetAllLogicalDeviceStatesResponse -->
+	<xs:complexType name="GetAllLogicalDeviceStatesResponse">
+		<xs:complexContent>
+			<xs:extension base="BaseResponse">
+				<xs:sequence>
+					<xs:element name="States">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="LogicalDeviceState" type="states:LogicalDeviceState"
+									maxOccurs="unbounded" minOccurs="0">
+
+								</xs:element>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute type="xs:string" name="Result" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>	
+	
+</xs:schema>

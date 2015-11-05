@@ -1,0 +1,2577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<BaseResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:type="GetEntitiesResponse" Version="1.70"
+		CorrespondingRequestId="035f0120-09f8-4199-8292-e79594087143"
+		ConfigurationVersion="217">
+		<LCs>
+			<LC>
+				<Id>1e41625b-7570-432c-bac9-fc83f184808c</Id>
+				<Name>ÜBERGREIFEND</Name>
+				<Position>0</Position>
+				<RTyp>Other</RTyp>
+			</LC>
+			<LC>
+				<Id>21a31d15-168f-47f1-87d0-e9baeacfcbef</Id>
+				<Name>WOHNZIMMER</Name>
+				<Position>1000</Position>
+				<RTyp>Other</RTyp>
+			</LC>
+			<LC>
+				<Id>0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf</Id>
+				<Name>SCHLAFZIMMER</Name>
+				<Position>2000</Position>
+				<RTyp>Other</RTyp>
+			</LC>
+			<LC>
+				<Id>01e2f1c7-1d02-4e3a-81de-746af53e24fc</Id>
+				<Name>BAD</Name>
+				<Position>3000</Position>
+				<RTyp>Other</RTyp>
+			</LC>
+			<LC>
+				<Id>b012a54a-c789-4ec9-9fab-6b8188c4505e</Id>
+				<Name>FLUR</Name>
+				<Position>4000</Position>
+				<RTyp>Other</RTyp>
+			</LC>
+			<LC>
+				<Id>6a11d743-6986-4880-bfa4-3bed982c8725</Id>
+				<Name>KÜCHE</Name>
+				<Position>5000</Position>
+				<RTyp>Other</RTyp>
+			</LC>
+			<LC>
+				<Id>3c9784fa-1c88-4d35-ada0-89780466d4fc</Id>
+				<Name>GASTE BAD</Name>
+				<Position>1250</Position>
+				<RTyp>Other</RTyp>
+			</LC>
+			<LC>
+				<Id>52ca89e3-61a8-4e2c-af73-1b0add810e26</Id>
+				<Name>GASTE ZIMMER</Name>
+				<Position>1125</Position>
+				<RTyp>Other</RTyp>
+			</LC>
+			<LC>
+				<Id>3e7ffe13-0991-4e49-9825-4097ff25ff2a</Id>
+				<Name>ARBEITSZIMMER</Name>
+				<Position>1062</Position>
+				<RTyp>Other</RTyp>
+			</LC>
+			<LC>
+				<Id>350a8196-0ff9-434b-816b-e591aca9e6ab</Id>
+				<Name>ISABELLE ZIMMER</Name>
+				<Position>1500</Position>
+				<RTyp>Other</RTyp>
+			</LC>
+			<LC>
+				<Id>d40b326a-51c1-44c0-8bf0-015bfb27a14f</Id>
+				<Name>ANNASOPHIA ZIMMER</Name>
+				<Position>1750</Position>
+				<RTyp>Other</RTyp>
+			</LC>
+			<LC>
+				<Id>7ea4cae1-c72e-415e-b38d-ccace4f0a6ec</Id>
+				<Name>ANKLEIDE ZIMMER</Name>
+				<Position>1875</Position>
+				<RTyp>Other</RTyp>
+			</LC>
+			<LC>
+				<Id>58c3920c-5d62-4eb6-a156-7c34d8d33872</Id>
+				<Name>EINGANG</Name>
+				<Position>500</Position>
+				<RTyp>Other</RTyp>
+			</LC>
+			<LC>
+				<Id>8ce9da40-40ab-4bd7-a430-31be994d2b8e</Id>
+				<Name>TERRASSE</Name>
+				<Position>6000</Position>
+				<RTyp>Other</RTyp>
+			</LC>
+		</LCs>
+		<BDs>
+			<BD FN="914110164506" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-03-03T12:39:29.638Z" TOA="2014-03-03T13:40:36.4975435+01:00">
+				<Id>36e0ed4e-0b2d-4700-b7f7-169a27f9a6e1</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Rst" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914110109215" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-03-03T12:39:50.056Z" TOA="2014-03-03T13:41:14.6555435+01:00">
+				<Id>85e4fcdc-12ca-45aa-ab40-6d324a17a964</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Rst" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914110097639" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-03-03T12:40:26.739Z" TOA="2014-03-03T13:41:24.4815435+01:00">
+				<Id>b8b121c9-0871-4b6b-833b-707b6b47b89f</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Rst" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914110077061" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-03-03T12:49:21.841Z" TOA="2014-03-03T13:49:39.1855435+01:00">
+				<Id>19cabf8c-c229-410f-85f2-378d98b441c6</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Rst" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914110005916" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-03-03T12:53:02.562Z" TOA="2014-03-03T13:53:14.9825435+01:00">
+				<Id>effb061f-5f28-426e-8639-f0add00db9d7</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Rst" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914110072005" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-03-03T12:56:37.058Z" TOA="2014-03-03T13:56:45.8445435+01:00">
+				<Id>dda8f45d-241b-4312-b953-bb7987c7606c</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Rst" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="921430010040" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-03-03T15:04:37.373Z" TOA="2014-03-03T16:04:47.5679832+01:00">
+				<Id>5f9ee821-d958-417b-bad7-534ca4b1b6d4</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Wds" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914110052390" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-03-10T18:17:47.827Z" TOA="2014-03-10T19:17:58.932303+01:00">
+				<Id>b932f291-798a-4256-996f-f394fdc14bc4</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Rst" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914110048924" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-08-28T11:03:40.243Z" TOA="2014-08-28T13:04:48.0291302+02:00">
+				<Id>5a6da55d-edce-43d6-b7d5-d3f338f7b43b</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Rst" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914110054958" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-08-28T11:08:18.584Z" TOA="2014-08-28T13:11:18.0194364+02:00">
+				<Id>12c7b89e-aa79-42a9-90a3-3ac252a69370</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Rst" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914110054278" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-08-28T11:22:20.772Z" TOA="2014-08-28T13:23:30.239317+02:00">
+				<Id>25be30bb-4e94-48cc-9f4c-2fcae24cb240</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Rst" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914110052281" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-08-28T11:24:29.496Z" TOA="2014-08-28T13:27:23.7606736+02:00">
+				<Id>a74b8ea6-85bb-4370-a4ef-d92b6d1c715d</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Rst" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914110016274" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-08-28T11:28:35.856Z" TOA="2014-08-28T13:31:29.5217303+02:00">
+				<Id>b25134e0-c205-4939-8685-dd77b59ebebd</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Rst" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914110052524" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-08-28T11:33:52.378Z" TOA="2014-08-28T13:37:03.5758371+02:00">
+				<Id>6e5c8316-f43e-4618-b913-e65804f824e1</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Rst" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="921430043882" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-08-28T12:07:34.134Z" TOA="2014-08-28T14:08:51.0749398+02:00">
+				<Id>232e8769-0296-45a0-875e-eefc5491af63</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Wds" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="921430045582" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-08-28T12:12:25.189Z" TOA="2014-08-28T14:13:36.3522568+02:00">
+				<Id>f7a9f81a-477d-420e-b6f2-54a32b6c666a</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Wds" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="921430069102" PrId="Cosip" AppId="sh://core.builtin" TOD="2014-09-02T10:00:09.48Z"
+				TOA="2014-09-02T12:00:24.0290722+02:00">
+				<Id>7d9527cf-65f1-4653-a603-09e1fbc76a41</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Wds" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="921430069116" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-09-02T10:08:12.098Z" TOA="2014-09-02T12:08:22.1344183+02:00">
+				<Id>e2ab6685-a3c0-4e45-8613-09e73ec445a5</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Wds" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="921430070487" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-09-02T10:12:55.579Z" TOA="2014-09-02T12:14:12.2294426+02:00">
+				<Id>80063e47-122c-4551-b19d-3a84027b819b</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Wds" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="921430071673" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-09-02T10:18:31.573Z" TOA="2014-09-02T12:20:01.1634005+02:00">
+				<Id>5546250f-4cf3-4703-910e-8a839c0e616f</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Wds" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="921430070388" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-09-02T11:21:04.817Z" TOA="2014-09-02T13:21:19.2457747+02:00">
+				<Id>e42de822-1153-4c09-a374-0f56b7053122</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Wds" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="921430069118" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-09-02T14:32:29.902Z" TOA="2014-09-02T16:32:45.8697721+02:00">
+				<Id>8e2f6f4e-b991-4052-bea5-9b248d387b30</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Wds" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914220015495" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-09-10T10:25:21.521Z" TOA="2014-09-10T12:26:04.4195274+02:00">
+				<Id>1681bf0f-230b-4e2b-9a57-7c44c5f78ecd</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Isd" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914220016110" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-09-10T11:04:31.733Z" TOA="2014-09-10T13:05:15.7160139+02:00">
+				<Id>04c25016-2d71-41d7-b85f-5863468d3469</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Isd" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914160008379" PrId="Cosip" AppId="sh://core.builtin" TOD="2014-09-10T14:55:20.24Z"
+				TOA="2014-09-10T16:56:33.1765962+02:00">
+				<Id>64fc08bf-0d47-41d4-b201-e697eedb80b9</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Wmdo" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914220016511" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-09-11T09:58:59.855Z" TOA="2014-09-11T11:59:46.8444137+02:00">
+				<Id>99bc412e-ef9c-4f1b-ba66-c1a12e8cef70</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Isd" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914210018963" PrId="Cosip" AppId="sh://core.builtin" TOD="2014-09-15T05:15:55.47Z"
+				TOA="2014-09-15T07:16:46.3385615+02:00">
+				<Id>db9f842b-c47a-4218-97c7-94280b8fc968</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Iss" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914220015452" PrId="Cosip" AppId="sh://core.builtin" TOD="2014-10-17T14:12:18.18Z"
+				TOA="2014-10-17T16:11:29.1318243+02:00">
+				<Id>eb0da361-6ed4-446c-8993-487eca189ec3</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Isd" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914210010436" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-10-20T14:50:27.451Z" TOA="2014-10-20T16:49:45.5744831+02:00">
+				<Id>f171e951-4486-4f25-bbdb-2f00b8a7bdfb</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Iss" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914210018597" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-10-20T16:18:29.477Z" TOA="2014-10-20T18:17:55.9753742+02:00">
+				<Id>dec826f2-6562-49cd-80cd-d3a88ed7addc</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Iss" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+			<BD FN="914220016676" PrId="Cosip" AppId="sh://core.builtin"
+				TOD="2014-10-20T17:40:43.656Z" TOA="2014-10-20T19:40:24.1153916+02:00">
+				<Id>919d20ee-986d-499b-8979-c71b1edb331b</Id>
+				<AIPs>
+					<Ppt xsi:type="StringProperty" Name="DeviceType" Value="Isd" />
+				</AIPs>
+				<PrSPpts />
+			</BD>
+		</BDs>
+		<LDs>
+			<LD xsi:type="ThermostatActuator" Name="Heizkörperthermostat 1"
+				LCID="21a31d15-168f-47f1-87d0-e9baeacfcbef">
+				<Id>2dd955e6-8974-4923-b19e-e4641989b789</Id>
+				<BDId>36e0ed4e-0b2d-4700-b7f7-169a27f9a6e1</BDId>
+				<ActCls>Temperature</ActCls>
+			</LD>
+			<LD xsi:type="ValveActuator" Name="Verdeckter Ventilsteller Heizkörperthermostat 1"
+				LCID="21a31d15-168f-47f1-87d0-e9baeacfcbef">
+				<Id>cd2e04cc-ead9-4d61-9b1a-9dd9c3ee9798</Id>
+				<BDId>36e0ed4e-0b2d-4700-b7f7-169a27f9a6e1</BDId>
+				<ActCls>Temperature</ActCls>
+				<ValveIndex>0</ValveIndex>
+			</LD>
+			<LD xsi:type="RoomTemperatureActuator" Name="Heizung"
+				LCID="21a31d15-168f-47f1-87d0-e9baeacfcbef">
+				<Id>6129a701-5ba5-4a17-b703-47c5128f6ad1</Id>
+				<ActCls>Temperature</ActCls>
+				<DOfStgs xsi:type="RoomTemperatureActuatorSettings">
+					<Id>ad2b0dbe-a2fb-4321-ac1d-c79a56baeaab</Id>
+					<AcId>6129a701-5ba5-4a17-b703-47c5128f6ad1</AcId>
+					<PtTmp>14.0</PtTmp>
+					<WndRd>false</WndRd>
+				</DOfStgs>
+				<UDvIds>
+					<guid>2dd955e6-8974-4923-b19e-e4641989b789</guid>
+					<guid>cd2e04cc-ead9-4d61-9b1a-9dd9c3ee9798</guid>
+					<guid>cbf23a34-268d-4c3c-81dd-ef6eee80e512</guid>
+					<guid>4030343f-6fdc-4e36-8f49-e65cb5c1a550</guid>
+					<guid>9dacc156-9e7b-448b-9760-fc717d4496f3</guid>
+					<guid>67a12d3e-cb5e-49a6-ab1a-9146715b5683</guid>
+				</UDvIds>
+				<MxTp>20.0</MxTp>
+				<MnTp>6.0</MnTp>
+				<PhFct>0</PhFct>
+				<WLck>true</WLck>
+				<RLck>true</RLck>
+				<FPrA>false</FPrA>
+				<FPr>5.5</FPr>
+				<MPrA>false</MPrA>
+				<HMPr>0.0</HMPr>
+				<WOpTp>6</WOpTp>
+				<DCTmp>CurrentTemperature</DCTmp>
+			</LD>
+			<LD xsi:type="TemperatureSensor" Name="Temperatur (Heizkörper) 1"
+				LCID="21a31d15-168f-47f1-87d0-e9baeacfcbef">
+				<Id>c11ffac0-2d5b-439c-813a-5d26de647cd9</Id>
+				<BDId>36e0ed4e-0b2d-4700-b7f7-169a27f9a6e1</BDId>
+			</LD>
+			<LD xsi:type="RoomTemperatureSensor" Name="Temperatur"
+				LCID="21a31d15-168f-47f1-87d0-e9baeacfcbef">
+				<Id>5d9b0d57-a49e-4082-b999-5463a4827edf</Id>
+				<UDvIds>
+					<guid>c11ffac0-2d5b-439c-813a-5d26de647cd9</guid>
+					<guid>7926d46a-092a-4adf-9585-5d8da22c3648</guid>
+					<guid>3a2b6ae3-defd-4e49-aa20-03398c0f8de0</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="HumiditySensor" Name="Luftfeuchtigkeit (Heizkörper) 1"
+				LCID="21a31d15-168f-47f1-87d0-e9baeacfcbef">
+				<Id>1955fbde-ab67-47cd-aef3-523c336ac519</Id>
+				<BDId>36e0ed4e-0b2d-4700-b7f7-169a27f9a6e1</BDId>
+			</LD>
+			<LD xsi:type="RoomHumiditySensor" Name="Luftfeuchtigkeit"
+				LCID="21a31d15-168f-47f1-87d0-e9baeacfcbef">
+				<Id>25de9434-caf9-439c-919d-90e4edfb55fe</Id>
+				<UDvIds>
+					<guid>1955fbde-ab67-47cd-aef3-523c336ac519</guid>
+					<guid>f8a21f8a-57a5-42b6-860c-e70f4506732c</guid>
+					<guid>3e26dfb2-03fb-4987-a9b8-015c576f81ef</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="ThermostatActuator" Name="Heizkörperthermostat 2"
+				LCID="21a31d15-168f-47f1-87d0-e9baeacfcbef">
+				<Id>cbf23a34-268d-4c3c-81dd-ef6eee80e512</Id>
+				<BDId>85e4fcdc-12ca-45aa-ab40-6d324a17a964</BDId>
+				<ActCls>Temperature</ActCls>
+			</LD>
+			<LD xsi:type="ValveActuator" Name="Verdeckter Ventilsteller Heizkörperthermostat 2"
+				LCID="21a31d15-168f-47f1-87d0-e9baeacfcbef">
+				<Id>4030343f-6fdc-4e36-8f49-e65cb5c1a550</Id>
+				<BDId>85e4fcdc-12ca-45aa-ab40-6d324a17a964</BDId>
+				<ActCls>Temperature</ActCls>
+				<ValveIndex>0</ValveIndex>
+			</LD>
+			<LD xsi:type="TemperatureSensor" Name="Temperatur (Heizkörper) 2"
+				LCID="21a31d15-168f-47f1-87d0-e9baeacfcbef">
+				<Id>7926d46a-092a-4adf-9585-5d8da22c3648</Id>
+				<BDId>85e4fcdc-12ca-45aa-ab40-6d324a17a964</BDId>
+			</LD>
+			<LD xsi:type="HumiditySensor" Name="Luftfeuchtigkeit (Heizkörper) 2"
+				LCID="21a31d15-168f-47f1-87d0-e9baeacfcbef">
+				<Id>f8a21f8a-57a5-42b6-860c-e70f4506732c</Id>
+				<BDId>85e4fcdc-12ca-45aa-ab40-6d324a17a964</BDId>
+			</LD>
+			<LD xsi:type="ThermostatActuator" Name="Heizkörperthermostat 3"
+				LCID="21a31d15-168f-47f1-87d0-e9baeacfcbef">
+				<Id>9dacc156-9e7b-448b-9760-fc717d4496f3</Id>
+				<BDId>b8b121c9-0871-4b6b-833b-707b6b47b89f</BDId>
+				<ActCls>Temperature</ActCls>
+			</LD>
+			<LD xsi:type="ValveActuator" Name="Verdeckter Ventilsteller Heizkörperthermostat 3"
+				LCID="21a31d15-168f-47f1-87d0-e9baeacfcbef">
+				<Id>67a12d3e-cb5e-49a6-ab1a-9146715b5683</Id>
+				<BDId>b8b121c9-0871-4b6b-833b-707b6b47b89f</BDId>
+				<ActCls>Temperature</ActCls>
+				<ValveIndex>0</ValveIndex>
+			</LD>
+			<LD xsi:type="TemperatureSensor" Name="Temperatur (Heizkörper) 3"
+				LCID="21a31d15-168f-47f1-87d0-e9baeacfcbef">
+				<Id>3a2b6ae3-defd-4e49-aa20-03398c0f8de0</Id>
+				<BDId>b8b121c9-0871-4b6b-833b-707b6b47b89f</BDId>
+			</LD>
+			<LD xsi:type="HumiditySensor" Name="Luftfeuchtigkeit (Heizkörper) 3"
+				LCID="21a31d15-168f-47f1-87d0-e9baeacfcbef">
+				<Id>3e26dfb2-03fb-4987-a9b8-015c576f81ef</Id>
+				<BDId>b8b121c9-0871-4b6b-833b-707b6b47b89f</BDId>
+			</LD>
+			<LD xsi:type="ThermostatActuator" Name="Heizkörperthermostat 1"
+				LCID="6a11d743-6986-4880-bfa4-3bed982c8725">
+				<Id>f8ac578a-5f1f-45bf-b079-51fe3d88ccac</Id>
+				<BDId>19cabf8c-c229-410f-85f2-378d98b441c6</BDId>
+				<ActCls>Temperature</ActCls>
+			</LD>
+			<LD xsi:type="ValveActuator" Name="Verdeckter Ventilsteller Heizkörperthermostat 1"
+				LCID="6a11d743-6986-4880-bfa4-3bed982c8725">
+				<Id>e11f513c-a874-44ee-931f-b8994cd550fa</Id>
+				<BDId>19cabf8c-c229-410f-85f2-378d98b441c6</BDId>
+				<ActCls>Temperature</ActCls>
+				<ValveIndex>0</ValveIndex>
+			</LD>
+			<LD xsi:type="RoomTemperatureActuator" Name="Heizung"
+				LCID="6a11d743-6986-4880-bfa4-3bed982c8725">
+				<Id>c645db7a-4469-4096-9598-d3ce3af2c231</Id>
+				<ActCls>Temperature</ActCls>
+				<DOfStgs xsi:type="RoomTemperatureActuatorSettings">
+					<Id>35f4dd3a-7e7a-4766-903b-b00a8ed691c1</Id>
+					<AcId>c645db7a-4469-4096-9598-d3ce3af2c231</AcId>
+					<PtTmp>15.0</PtTmp>
+					<WndRd>false</WndRd>
+				</DOfStgs>
+				<UDvIds>
+					<guid>f8ac578a-5f1f-45bf-b079-51fe3d88ccac</guid>
+					<guid>e11f513c-a874-44ee-931f-b8994cd550fa</guid>
+				</UDvIds>
+				<MxTp>20.0</MxTp>
+				<MnTp>6.0</MnTp>
+				<PhFct>0</PhFct>
+				<WLck>true</WLck>
+				<RLck>true</RLck>
+				<FPrA>false</FPrA>
+				<FPr>5.5</FPr>
+				<MPrA>false</MPrA>
+				<HMPr>0.0</HMPr>
+				<WOpTp>6</WOpTp>
+				<DCTmp>TargetTemperatue</DCTmp>
+			</LD>
+			<LD xsi:type="TemperatureSensor" Name="Temperatur (Heizkörper) 1"
+				LCID="6a11d743-6986-4880-bfa4-3bed982c8725">
+				<Id>762b3682-d9a5-4459-a3c0-ab8b6a321ade</Id>
+				<BDId>19cabf8c-c229-410f-85f2-378d98b441c6</BDId>
+			</LD>
+			<LD xsi:type="RoomTemperatureSensor" Name="Temperatur"
+				LCID="6a11d743-6986-4880-bfa4-3bed982c8725">
+				<Id>add1aaf5-df3f-4340-b798-91d98f093a7e</Id>
+				<UDvIds>
+					<guid>762b3682-d9a5-4459-a3c0-ab8b6a321ade</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="HumiditySensor" Name="Luftfeuchtigkeit (Heizkörper) 1"
+				LCID="6a11d743-6986-4880-bfa4-3bed982c8725">
+				<Id>b01cc029-1b95-4280-aa4c-54dc3831cd5b</Id>
+				<BDId>19cabf8c-c229-410f-85f2-378d98b441c6</BDId>
+			</LD>
+			<LD xsi:type="RoomHumiditySensor" Name="Luftfeuchtigkeit"
+				LCID="6a11d743-6986-4880-bfa4-3bed982c8725">
+				<Id>680eb53e-6b1e-48b1-8253-2be9167aac40</Id>
+				<UDvIds>
+					<guid>b01cc029-1b95-4280-aa4c-54dc3831cd5b</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="ThermostatActuator" Name="Heizkörperthermostat 1"
+				LCID="01e2f1c7-1d02-4e3a-81de-746af53e24fc">
+				<Id>7d5dd075-50aa-44d2-a1db-c2864b248a50</Id>
+				<BDId>effb061f-5f28-426e-8639-f0add00db9d7</BDId>
+				<ActCls>Temperature</ActCls>
+			</LD>
+			<LD xsi:type="ValveActuator" Name="Verdeckter Ventilsteller Heizkörperthermostat 1"
+				LCID="01e2f1c7-1d02-4e3a-81de-746af53e24fc">
+				<Id>a1c27ce7-e77b-4c20-965d-5bad9c97a0c5</Id>
+				<BDId>effb061f-5f28-426e-8639-f0add00db9d7</BDId>
+				<ActCls>Temperature</ActCls>
+				<ValveIndex>0</ValveIndex>
+			</LD>
+			<LD xsi:type="RoomTemperatureActuator" Name="Heizung"
+				LCID="01e2f1c7-1d02-4e3a-81de-746af53e24fc">
+				<Id>5b6aec0f-0073-4b8f-8df8-55d359dfde33</Id>
+				<ActCls>Temperature</ActCls>
+				<DOfStgs xsi:type="RoomTemperatureActuatorSettings">
+					<Id>a2cff499-7be6-4792-b2fc-fac720b55dd8</Id>
+					<AcId>5b6aec0f-0073-4b8f-8df8-55d359dfde33</AcId>
+					<PtTmp>17.0</PtTmp>
+					<WndRd>false</WndRd>
+				</DOfStgs>
+				<UDvIds>
+					<guid>7d5dd075-50aa-44d2-a1db-c2864b248a50</guid>
+					<guid>a1c27ce7-e77b-4c20-965d-5bad9c97a0c5</guid>
+				</UDvIds>
+				<MxTp>22.0</MxTp>
+				<MnTp>6.0</MnTp>
+				<PhFct>0</PhFct>
+				<WLck>true</WLck>
+				<RLck>true</RLck>
+				<FPrA>false</FPrA>
+				<FPr>5.5</FPr>
+				<MPrA>false</MPrA>
+				<HMPr>0.0</HMPr>
+				<WOpTp>6</WOpTp>
+				<DCTmp>TargetTemperatue</DCTmp>
+			</LD>
+			<LD xsi:type="TemperatureSensor" Name="Temperatur (Heizkörper) 1"
+				LCID="01e2f1c7-1d02-4e3a-81de-746af53e24fc">
+				<Id>ac90b2f6-633f-406c-bdb8-ae64c326d303</Id>
+				<BDId>effb061f-5f28-426e-8639-f0add00db9d7</BDId>
+			</LD>
+			<LD xsi:type="RoomTemperatureSensor" Name="Temperatur"
+				LCID="01e2f1c7-1d02-4e3a-81de-746af53e24fc">
+				<Id>881a83c9-9bac-4ecf-9828-01e1ea83d718</Id>
+				<UDvIds>
+					<guid>ac90b2f6-633f-406c-bdb8-ae64c326d303</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="HumiditySensor" Name="Luftfeuchtigkeit (Heizkörper) 1"
+				LCID="01e2f1c7-1d02-4e3a-81de-746af53e24fc">
+				<Id>90605c6b-d72f-4b21-a02b-1ff2e7700ffb</Id>
+				<BDId>effb061f-5f28-426e-8639-f0add00db9d7</BDId>
+			</LD>
+			<LD xsi:type="RoomHumiditySensor" Name="Luftfeuchtigkeit"
+				LCID="01e2f1c7-1d02-4e3a-81de-746af53e24fc">
+				<Id>e5549b78-5a7d-4680-a250-973e91a26346</Id>
+				<UDvIds>
+					<guid>90605c6b-d72f-4b21-a02b-1ff2e7700ffb</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="ThermostatActuator" Name="Heizkörperthermostat 1"
+				LCID="b012a54a-c789-4ec9-9fab-6b8188c4505e">
+				<Id>e7eb5eb0-89f1-4afd-b0f4-67bf247a6ad8</Id>
+				<BDId>dda8f45d-241b-4312-b953-bb7987c7606c</BDId>
+				<ActCls>Temperature</ActCls>
+			</LD>
+			<LD xsi:type="ValveActuator" Name="Verdeckter Ventilsteller Heizkörperthermostat 1"
+				LCID="b012a54a-c789-4ec9-9fab-6b8188c4505e">
+				<Id>39b92369-8912-4231-bbd0-7c91ae6d9493</Id>
+				<BDId>dda8f45d-241b-4312-b953-bb7987c7606c</BDId>
+				<ActCls>Temperature</ActCls>
+				<ValveIndex>0</ValveIndex>
+			</LD>
+			<LD xsi:type="RoomTemperatureActuator" Name="Heizung"
+				LCID="b012a54a-c789-4ec9-9fab-6b8188c4505e">
+				<Id>c7471a3d-751a-45dc-a467-dd88a4e9c0d6</Id>
+				<ActCls>Temperature</ActCls>
+				<DOfStgs xsi:type="RoomTemperatureActuatorSettings">
+					<Id>9909e653-45dd-4e93-a866-e917233765e6</Id>
+					<AcId>c7471a3d-751a-45dc-a467-dd88a4e9c0d6</AcId>
+					<PtTmp>15.0</PtTmp>
+					<WndRd>false</WndRd>
+				</DOfStgs>
+				<UDvIds>
+					<guid>e7eb5eb0-89f1-4afd-b0f4-67bf247a6ad8</guid>
+					<guid>39b92369-8912-4231-bbd0-7c91ae6d9493</guid>
+				</UDvIds>
+				<MxTp>20.0</MxTp>
+				<MnTp>6.0</MnTp>
+				<PhFct>0</PhFct>
+				<WLck>true</WLck>
+				<RLck>true</RLck>
+				<FPrA>false</FPrA>
+				<FPr>5.5</FPr>
+				<MPrA>false</MPrA>
+				<HMPr>0.0</HMPr>
+				<WOpTp>6</WOpTp>
+				<DCTmp>CurrentTemperature</DCTmp>
+			</LD>
+			<LD xsi:type="TemperatureSensor" Name="Temperatur (Heizkörper) 1"
+				LCID="b012a54a-c789-4ec9-9fab-6b8188c4505e">
+				<Id>fbba4af4-399e-444a-bf2f-bb55a964b8a0</Id>
+				<BDId>dda8f45d-241b-4312-b953-bb7987c7606c</BDId>
+			</LD>
+			<LD xsi:type="RoomTemperatureSensor" Name="Temperatur"
+				LCID="b012a54a-c789-4ec9-9fab-6b8188c4505e">
+				<Id>5de1e0cd-4ae9-430d-ac30-f1a9f35db17a</Id>
+				<UDvIds>
+					<guid>fbba4af4-399e-444a-bf2f-bb55a964b8a0</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="HumiditySensor" Name="Luftfeuchtigkeit (Heizkörper) 1"
+				LCID="b012a54a-c789-4ec9-9fab-6b8188c4505e">
+				<Id>68946ca6-8a5c-4771-bd69-177472581172</Id>
+				<BDId>dda8f45d-241b-4312-b953-bb7987c7606c</BDId>
+			</LD>
+			<LD xsi:type="RoomHumiditySensor" Name="Luftfeuchtigkeit"
+				LCID="b012a54a-c789-4ec9-9fab-6b8188c4505e">
+				<Id>ba1f32ce-a9d6-4152-9ed4-ded4426aba7b</Id>
+				<UDvIds>
+					<guid>68946ca6-8a5c-4771-bd69-177472581172</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="WindowDoorSensor" Name="Tür- und Fenstersensor 1"
+				LCID="01e2f1c7-1d02-4e3a-81de-746af53e24fc">
+				<Id>117d3b61-2d27-4b01-b8b3-69df20cd9523</Id>
+				<BDId>5f9ee821-d958-417b-bad7-534ca4b1b6d4</BDId>
+				<Installation>Window</Installation>
+				<EventFilterTime>0</EventFilterTime>
+				<WOpFunc>true</WOpFunc>
+			</LD>
+			<LD xsi:type="ThermostatActuator" Name="Heizkörperthermostat 1"
+				LCID="3c9784fa-1c88-4d35-ada0-89780466d4fc">
+				<Id>8eff1cda-a604-443c-8c26-1ae434d7a8f8</Id>
+				<BDId>b932f291-798a-4256-996f-f394fdc14bc4</BDId>
+				<ActCls>Temperature</ActCls>
+			</LD>
+			<LD xsi:type="ValveActuator" Name="Verdeckter Ventilsteller Heizkörperthermostat 1"
+				LCID="3c9784fa-1c88-4d35-ada0-89780466d4fc">
+				<Id>7944eec4-b4c0-4d49-bedb-b199fc1b7183</Id>
+				<BDId>b932f291-798a-4256-996f-f394fdc14bc4</BDId>
+				<ActCls>Temperature</ActCls>
+				<ValveIndex>0</ValveIndex>
+			</LD>
+			<LD xsi:type="RoomTemperatureActuator" Name="Heizung"
+				LCID="3c9784fa-1c88-4d35-ada0-89780466d4fc">
+				<Id>12850f10-a320-4733-a2e0-6f5c835edd23</Id>
+				<ActCls>Temperature</ActCls>
+				<DOfStgs xsi:type="RoomTemperatureActuatorSettings">
+					<Id>af0241eb-96c4-40a9-b53c-59350add9f5d</Id>
+					<AcId>12850f10-a320-4733-a2e0-6f5c835edd23</AcId>
+					<PtTmp>15.0</PtTmp>
+					<WndRd>false</WndRd>
+				</DOfStgs>
+				<UDvIds>
+					<guid>8eff1cda-a604-443c-8c26-1ae434d7a8f8</guid>
+					<guid>7944eec4-b4c0-4d49-bedb-b199fc1b7183</guid>
+				</UDvIds>
+				<MxTp>20.0</MxTp>
+				<MnTp>15.0</MnTp>
+				<PhFct>0</PhFct>
+				<WLck>true</WLck>
+				<RLck>false</RLck>
+				<FPrA>false</FPrA>
+				<FPr>5.5</FPr>
+				<MPrA>false</MPrA>
+				<HMPr>0.0</HMPr>
+				<WOpTp>15</WOpTp>
+				<DCTmp>TargetTemperatue</DCTmp>
+			</LD>
+			<LD xsi:type="TemperatureSensor" Name="Temperatur (Heizkörper) 1"
+				LCID="3c9784fa-1c88-4d35-ada0-89780466d4fc">
+				<Id>cada6d71-e208-44ed-adda-18586328f584</Id>
+				<BDId>b932f291-798a-4256-996f-f394fdc14bc4</BDId>
+			</LD>
+			<LD xsi:type="RoomTemperatureSensor" Name="Temperatur"
+				LCID="3c9784fa-1c88-4d35-ada0-89780466d4fc">
+				<Id>cecaafad-901f-4b9e-b20f-5a7dbe04f2d8</Id>
+				<UDvIds>
+					<guid>cada6d71-e208-44ed-adda-18586328f584</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="HumiditySensor" Name="Luftfeuchtigkeit (Heizkörper) 1"
+				LCID="3c9784fa-1c88-4d35-ada0-89780466d4fc">
+				<Id>c3539235-1e59-4748-a176-11f5e14d28f9</Id>
+				<BDId>b932f291-798a-4256-996f-f394fdc14bc4</BDId>
+			</LD>
+			<LD xsi:type="RoomHumiditySensor" Name="Luftfeuchtigkeit"
+				LCID="3c9784fa-1c88-4d35-ada0-89780466d4fc">
+				<Id>902930a7-1c2d-48f0-9c1b-bdef305c78b2</Id>
+				<UDvIds>
+					<guid>c3539235-1e59-4748-a176-11f5e14d28f9</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="ThermostatActuator" Name="Heizkörperthermostat 1"
+				LCID="52ca89e3-61a8-4e2c-af73-1b0add810e26">
+				<Id>eab2ab8f-2439-4a6e-9668-2cd45b38363a</Id>
+				<BDId>5a6da55d-edce-43d6-b7d5-d3f338f7b43b</BDId>
+				<ActCls>Temperature</ActCls>
+			</LD>
+			<LD xsi:type="ValveActuator" Name="Verdeckter Ventilsteller Heizkörperthermostat 1"
+				LCID="52ca89e3-61a8-4e2c-af73-1b0add810e26">
+				<Id>7f0cd669-141f-4c6f-bd6d-d33eeef890f7</Id>
+				<BDId>5a6da55d-edce-43d6-b7d5-d3f338f7b43b</BDId>
+				<ActCls>Temperature</ActCls>
+				<ValveIndex>0</ValveIndex>
+			</LD>
+			<LD xsi:type="RoomTemperatureActuator" Name="Heizung"
+				LCID="52ca89e3-61a8-4e2c-af73-1b0add810e26">
+				<Id>413b1399-7a09-4ac3-aebd-91687369f8a9</Id>
+				<ActCls>Temperature</ActCls>
+				<DOfStgs xsi:type="RoomTemperatureActuatorSettings">
+					<Id>a8fe6756-a0b6-4205-83bd-7f036cf37a63</Id>
+					<AcId>413b1399-7a09-4ac3-aebd-91687369f8a9</AcId>
+					<PtTmp>12.0</PtTmp>
+					<WndRd>false</WndRd>
+				</DOfStgs>
+				<UDvIds>
+					<guid>eab2ab8f-2439-4a6e-9668-2cd45b38363a</guid>
+					<guid>7f0cd669-141f-4c6f-bd6d-d33eeef890f7</guid>
+				</UDvIds>
+				<MxTp>22.0</MxTp>
+				<MnTp>6.0</MnTp>
+				<PhFct>0</PhFct>
+				<WLck>false</WLck>
+				<RLck>false</RLck>
+				<FPrA>false</FPrA>
+				<FPr>5.5</FPr>
+				<MPrA>false</MPrA>
+				<HMPr>0.0</HMPr>
+				<WOpTp>6</WOpTp>
+				<DCTmp>TargetTemperatue</DCTmp>
+			</LD>
+			<LD xsi:type="TemperatureSensor" Name="Temperatur (Heizkörper) 1"
+				LCID="52ca89e3-61a8-4e2c-af73-1b0add810e26">
+				<Id>a724e5ab-0fa6-4f2a-a3dc-db8946c408c8</Id>
+				<BDId>5a6da55d-edce-43d6-b7d5-d3f338f7b43b</BDId>
+			</LD>
+			<LD xsi:type="RoomTemperatureSensor" Name="Temperatur"
+				LCID="52ca89e3-61a8-4e2c-af73-1b0add810e26">
+				<Id>8383b777-95d1-40fc-a0c8-d464dad6a8e8</Id>
+				<UDvIds>
+					<guid>a724e5ab-0fa6-4f2a-a3dc-db8946c408c8</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="HumiditySensor" Name="Luftfeuchtigkeit (Heizkörper) 1"
+				LCID="52ca89e3-61a8-4e2c-af73-1b0add810e26">
+				<Id>b49f9160-6d9e-47b6-826b-3c0193e938a1</Id>
+				<BDId>5a6da55d-edce-43d6-b7d5-d3f338f7b43b</BDId>
+			</LD>
+			<LD xsi:type="RoomHumiditySensor" Name="Luftfeuchtigkeit"
+				LCID="52ca89e3-61a8-4e2c-af73-1b0add810e26">
+				<Id>db4330d5-48b1-4687-9e32-8625a61078fc</Id>
+				<UDvIds>
+					<guid>b49f9160-6d9e-47b6-826b-3c0193e938a1</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="ThermostatActuator" Name="Heizkörperthermostat 1"
+				LCID="3e7ffe13-0991-4e49-9825-4097ff25ff2a">
+				<Id>9eab22fe-751a-44ca-91e5-9fe7fa7ef3e1</Id>
+				<BDId>12c7b89e-aa79-42a9-90a3-3ac252a69370</BDId>
+				<ActCls>Temperature</ActCls>
+			</LD>
+			<LD xsi:type="ValveActuator" Name="Verdeckter Ventilsteller Heizkörperthermostat 1"
+				LCID="3e7ffe13-0991-4e49-9825-4097ff25ff2a">
+				<Id>21636671-fc31-4e21-b1e0-56bd859d565d</Id>
+				<BDId>12c7b89e-aa79-42a9-90a3-3ac252a69370</BDId>
+				<ActCls>Temperature</ActCls>
+				<ValveIndex>0</ValveIndex>
+			</LD>
+			<LD xsi:type="RoomTemperatureActuator" Name="Heizung"
+				LCID="3e7ffe13-0991-4e49-9825-4097ff25ff2a">
+				<Id>3cd16563-e9b4-47b1-b4b6-0ac7dd437f6b</Id>
+				<ActCls>Temperature</ActCls>
+				<DOfStgs xsi:type="RoomTemperatureActuatorSettings">
+					<Id>00405d3b-dd55-4acf-b237-6f5fa13f170f</Id>
+					<AcId>3cd16563-e9b4-47b1-b4b6-0ac7dd437f6b</AcId>
+					<PtTmp>15.0</PtTmp>
+					<WndRd>false</WndRd>
+				</DOfStgs>
+				<UDvIds>
+					<guid>9eab22fe-751a-44ca-91e5-9fe7fa7ef3e1</guid>
+					<guid>21636671-fc31-4e21-b1e0-56bd859d565d</guid>
+				</UDvIds>
+				<MxTp>22.0</MxTp>
+				<MnTp>6.0</MnTp>
+				<PhFct>0</PhFct>
+				<WLck>false</WLck>
+				<RLck>false</RLck>
+				<FPrA>false</FPrA>
+				<FPr>5.5</FPr>
+				<MPrA>false</MPrA>
+				<HMPr>0.0</HMPr>
+				<WOpTp>6</WOpTp>
+				<DCTmp>TargetTemperatue</DCTmp>
+			</LD>
+			<LD xsi:type="TemperatureSensor" Name="Temperatur (Heizkörper) 1"
+				LCID="3e7ffe13-0991-4e49-9825-4097ff25ff2a">
+				<Id>0fa146bb-c988-4c94-8398-32f2ec9b8d0f</Id>
+				<BDId>12c7b89e-aa79-42a9-90a3-3ac252a69370</BDId>
+			</LD>
+			<LD xsi:type="RoomTemperatureSensor" Name="Temperatur"
+				LCID="3e7ffe13-0991-4e49-9825-4097ff25ff2a">
+				<Id>ae4fb066-0ed2-4d04-8abe-4ef630febd88</Id>
+				<UDvIds>
+					<guid>0fa146bb-c988-4c94-8398-32f2ec9b8d0f</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="HumiditySensor" Name="Luftfeuchtigkeit (Heizkörper) 1"
+				LCID="3e7ffe13-0991-4e49-9825-4097ff25ff2a">
+				<Id>bbafdfad-8898-4e48-8262-2d8f166b0cab</Id>
+				<BDId>12c7b89e-aa79-42a9-90a3-3ac252a69370</BDId>
+			</LD>
+			<LD xsi:type="RoomHumiditySensor" Name="Luftfeuchtigkeit"
+				LCID="3e7ffe13-0991-4e49-9825-4097ff25ff2a">
+				<Id>463a99ec-3d2d-441e-a357-682b4ee63292</Id>
+				<UDvIds>
+					<guid>bbafdfad-8898-4e48-8262-2d8f166b0cab</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="ThermostatActuator" Name="Heizkörperthermostat 1"
+				LCID="350a8196-0ff9-434b-816b-e591aca9e6ab">
+				<Id>49311cd4-a19f-474a-96e4-52a839bd7251</Id>
+				<BDId>25be30bb-4e94-48cc-9f4c-2fcae24cb240</BDId>
+				<ActCls>Temperature</ActCls>
+			</LD>
+			<LD xsi:type="ValveActuator" Name="Verdeckter Ventilsteller Heizkörperthermostat 1"
+				LCID="350a8196-0ff9-434b-816b-e591aca9e6ab">
+				<Id>406e8198-578b-44c3-aa28-61c5875ac27d</Id>
+				<BDId>25be30bb-4e94-48cc-9f4c-2fcae24cb240</BDId>
+				<ActCls>Temperature</ActCls>
+				<ValveIndex>0</ValveIndex>
+			</LD>
+			<LD xsi:type="RoomTemperatureActuator" Name="Heizung"
+				LCID="350a8196-0ff9-434b-816b-e591aca9e6ab">
+				<Id>b76e18a1-7de9-4cc4-b140-b2a3155d0ce0</Id>
+				<ActCls>Temperature</ActCls>
+				<DOfStgs xsi:type="RoomTemperatureActuatorSettings">
+					<Id>cee58c22-3c35-4797-9280-51560d1f4c0e</Id>
+					<AcId>b76e18a1-7de9-4cc4-b140-b2a3155d0ce0</AcId>
+					<PtTmp>15.0</PtTmp>
+					<WndRd>false</WndRd>
+				</DOfStgs>
+				<UDvIds>
+					<guid>49311cd4-a19f-474a-96e4-52a839bd7251</guid>
+					<guid>406e8198-578b-44c3-aa28-61c5875ac27d</guid>
+				</UDvIds>
+				<MxTp>20.0</MxTp>
+				<MnTp>6.0</MnTp>
+				<PhFct>0</PhFct>
+				<WLck>true</WLck>
+				<RLck>false</RLck>
+				<FPrA>false</FPrA>
+				<FPr>5.5</FPr>
+				<MPrA>false</MPrA>
+				<HMPr>0.0</HMPr>
+				<WOpTp>6</WOpTp>
+				<DCTmp>CurrentTemperature</DCTmp>
+			</LD>
+			<LD xsi:type="TemperatureSensor" Name="Temperatur (Heizkörper) 1"
+				LCID="350a8196-0ff9-434b-816b-e591aca9e6ab">
+				<Id>e7ffa63c-e511-475c-a38e-cafb8a79d642</Id>
+				<BDId>25be30bb-4e94-48cc-9f4c-2fcae24cb240</BDId>
+			</LD>
+			<LD xsi:type="RoomTemperatureSensor" Name="Temperatur"
+				LCID="350a8196-0ff9-434b-816b-e591aca9e6ab">
+				<Id>8ef9b254-2899-4d57-8163-7b288f504bff</Id>
+				<UDvIds>
+					<guid>e7ffa63c-e511-475c-a38e-cafb8a79d642</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="HumiditySensor" Name="Luftfeuchtigkeit (Heizkörper) 1"
+				LCID="350a8196-0ff9-434b-816b-e591aca9e6ab">
+				<Id>ef72bc1a-5257-4d37-9be8-58a65993bdf9</Id>
+				<BDId>25be30bb-4e94-48cc-9f4c-2fcae24cb240</BDId>
+			</LD>
+			<LD xsi:type="RoomHumiditySensor" Name="Luftfeuchtigkeit"
+				LCID="350a8196-0ff9-434b-816b-e591aca9e6ab">
+				<Id>1519373e-6566-4db0-991e-3be5f3390d65</Id>
+				<UDvIds>
+					<guid>ef72bc1a-5257-4d37-9be8-58a65993bdf9</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="ThermostatActuator" Name="Heizkörperthermostat 1"
+				LCID="d40b326a-51c1-44c0-8bf0-015bfb27a14f">
+				<Id>8b001b61-7523-4acd-95fb-12beaf6d0579</Id>
+				<BDId>a74b8ea6-85bb-4370-a4ef-d92b6d1c715d</BDId>
+				<ActCls>Temperature</ActCls>
+			</LD>
+			<LD xsi:type="ValveActuator" Name="Verdeckter Ventilsteller Heizkörperthermostat 1"
+				LCID="d40b326a-51c1-44c0-8bf0-015bfb27a14f">
+				<Id>03ee397b-3971-4705-8eee-01e68039b8e7</Id>
+				<BDId>a74b8ea6-85bb-4370-a4ef-d92b6d1c715d</BDId>
+				<ActCls>Temperature</ActCls>
+				<ValveIndex>0</ValveIndex>
+			</LD>
+			<LD xsi:type="RoomTemperatureActuator" Name="Heizung"
+				LCID="d40b326a-51c1-44c0-8bf0-015bfb27a14f">
+				<Id>889613f1-3873-4a11-b1c7-1b393f8b6963</Id>
+				<ActCls>Temperature</ActCls>
+				<DOfStgs xsi:type="RoomTemperatureActuatorSettings">
+					<Id>2590bd46-d883-4a21-87cb-77267b02b427</Id>
+					<AcId>889613f1-3873-4a11-b1c7-1b393f8b6963</AcId>
+					<PtTmp>15.0</PtTmp>
+					<WndRd>false</WndRd>
+				</DOfStgs>
+				<UDvIds>
+					<guid>8b001b61-7523-4acd-95fb-12beaf6d0579</guid>
+					<guid>03ee397b-3971-4705-8eee-01e68039b8e7</guid>
+				</UDvIds>
+				<MxTp>20.0</MxTp>
+				<MnTp>6.0</MnTp>
+				<PhFct>0</PhFct>
+				<WLck>true</WLck>
+				<RLck>false</RLck>
+				<FPrA>false</FPrA>
+				<FPr>5.5</FPr>
+				<MPrA>false</MPrA>
+				<HMPr>0.0</HMPr>
+				<WOpTp>6</WOpTp>
+				<DCTmp>CurrentTemperature</DCTmp>
+			</LD>
+			<LD xsi:type="TemperatureSensor" Name="Temperatur (Heizkörper) 1"
+				LCID="d40b326a-51c1-44c0-8bf0-015bfb27a14f">
+				<Id>63b6f9f8-4116-4aac-9964-a82d93a0c34b</Id>
+				<BDId>a74b8ea6-85bb-4370-a4ef-d92b6d1c715d</BDId>
+			</LD>
+			<LD xsi:type="RoomTemperatureSensor" Name="Temperatur"
+				LCID="d40b326a-51c1-44c0-8bf0-015bfb27a14f">
+				<Id>1abafa4c-e5c0-4aaa-a312-4d5b4d07a6fc</Id>
+				<UDvIds>
+					<guid>63b6f9f8-4116-4aac-9964-a82d93a0c34b</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="HumiditySensor" Name="Luftfeuchtigkeit (Heizkörper) 1"
+				LCID="d40b326a-51c1-44c0-8bf0-015bfb27a14f">
+				<Id>0a4fc080-56e1-4878-8c2c-521cf92493b2</Id>
+				<BDId>a74b8ea6-85bb-4370-a4ef-d92b6d1c715d</BDId>
+			</LD>
+			<LD xsi:type="RoomHumiditySensor" Name="Luftfeuchtigkeit"
+				LCID="d40b326a-51c1-44c0-8bf0-015bfb27a14f">
+				<Id>338b09d9-73ca-4bdc-80fb-243baf6a6ab0</Id>
+				<UDvIds>
+					<guid>0a4fc080-56e1-4878-8c2c-521cf92493b2</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="ThermostatActuator" Name="Heizkörperthermostat 1"
+				LCID="0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf">
+				<Id>9dca352a-41d5-49cc-aee1-a4fc6dd5cdd0</Id>
+				<BDId>b25134e0-c205-4939-8685-dd77b59ebebd</BDId>
+				<ActCls>Temperature</ActCls>
+			</LD>
+			<LD xsi:type="ValveActuator" Name="Verdeckter Ventilsteller Heizkörperthermostat 1"
+				LCID="0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf">
+				<Id>53729dd5-8c71-4ec1-9672-1b111c2b9a11</Id>
+				<BDId>b25134e0-c205-4939-8685-dd77b59ebebd</BDId>
+				<ActCls>Temperature</ActCls>
+				<ValveIndex>0</ValveIndex>
+			</LD>
+			<LD xsi:type="RoomTemperatureActuator" Name="Heizung"
+				LCID="0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf">
+				<Id>41f3fb55-a28b-449a-9a96-86cc3a9ff632</Id>
+				<ActCls>Temperature</ActCls>
+				<DOfStgs xsi:type="RoomTemperatureActuatorSettings">
+					<Id>6edd6784-b335-46fe-934f-0b679118fee0</Id>
+					<AcId>41f3fb55-a28b-449a-9a96-86cc3a9ff632</AcId>
+					<PtTmp>15.5</PtTmp>
+					<WndRd>false</WndRd>
+				</DOfStgs>
+				<UDvIds>
+					<guid>9dca352a-41d5-49cc-aee1-a4fc6dd5cdd0</guid>
+					<guid>53729dd5-8c71-4ec1-9672-1b111c2b9a11</guid>
+				</UDvIds>
+				<MxTp>22.0</MxTp>
+				<MnTp>6.0</MnTp>
+				<PhFct>0</PhFct>
+				<WLck>false</WLck>
+				<RLck>false</RLck>
+				<FPrA>false</FPrA>
+				<FPr>5.5</FPr>
+				<MPrA>false</MPrA>
+				<HMPr>0.0</HMPr>
+				<WOpTp>6</WOpTp>
+				<DCTmp>TargetTemperatue</DCTmp>
+			</LD>
+			<LD xsi:type="TemperatureSensor" Name="Temperatur (Heizkörper) 1"
+				LCID="0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf">
+				<Id>89d7f230-78f3-4f11-a948-c54a818e9803</Id>
+				<BDId>b25134e0-c205-4939-8685-dd77b59ebebd</BDId>
+			</LD>
+			<LD xsi:type="RoomTemperatureSensor" Name="Temperatur"
+				LCID="0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf">
+				<Id>2880b475-1390-418b-8b82-068e84c79a03</Id>
+				<UDvIds>
+					<guid>89d7f230-78f3-4f11-a948-c54a818e9803</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="HumiditySensor" Name="Luftfeuchtigkeit (Heizkörper) 1"
+				LCID="0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf">
+				<Id>bb5eeebb-bcf3-4c21-b0a8-d628ff300e12</Id>
+				<BDId>b25134e0-c205-4939-8685-dd77b59ebebd</BDId>
+			</LD>
+			<LD xsi:type="RoomHumiditySensor" Name="Luftfeuchtigkeit"
+				LCID="0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf">
+				<Id>15f7a24e-ddec-43ee-9671-652693d15cde</Id>
+				<UDvIds>
+					<guid>bb5eeebb-bcf3-4c21-b0a8-d628ff300e12</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="ThermostatActuator" Name="Heizkörperthermostat 1"
+				LCID="7ea4cae1-c72e-415e-b38d-ccace4f0a6ec">
+				<Id>bf872b15-0c3d-4a89-8b83-12e4f7e43a68</Id>
+				<BDId>6e5c8316-f43e-4618-b913-e65804f824e1</BDId>
+				<ActCls>Temperature</ActCls>
+			</LD>
+			<LD xsi:type="ValveActuator" Name="Verdeckter Ventilsteller Heizkörperthermostat 1"
+				LCID="7ea4cae1-c72e-415e-b38d-ccace4f0a6ec">
+				<Id>8522b8bb-ee66-4d62-8e09-52b81e93b39e</Id>
+				<BDId>6e5c8316-f43e-4618-b913-e65804f824e1</BDId>
+				<ActCls>Temperature</ActCls>
+				<ValveIndex>0</ValveIndex>
+			</LD>
+			<LD xsi:type="RoomTemperatureActuator" Name="Heizung"
+				LCID="7ea4cae1-c72e-415e-b38d-ccace4f0a6ec">
+				<Id>20062c1d-e983-4132-ba94-af99b8483ad7</Id>
+				<ActCls>Temperature</ActCls>
+				<DOfStgs xsi:type="RoomTemperatureActuatorSettings">
+					<Id>235bcb01-a8ba-4c96-85b9-937e51df3dec</Id>
+					<AcId>20062c1d-e983-4132-ba94-af99b8483ad7</AcId>
+					<PtTmp>15.0</PtTmp>
+					<WndRd>false</WndRd>
+				</DOfStgs>
+				<UDvIds>
+					<guid>bf872b15-0c3d-4a89-8b83-12e4f7e43a68</guid>
+					<guid>8522b8bb-ee66-4d62-8e09-52b81e93b39e</guid>
+				</UDvIds>
+				<MxTp>19.0</MxTp>
+				<MnTp>6.0</MnTp>
+				<PhFct>0</PhFct>
+				<WLck>false</WLck>
+				<RLck>false</RLck>
+				<FPrA>false</FPrA>
+				<FPr>5.5</FPr>
+				<MPrA>false</MPrA>
+				<HMPr>0.0</HMPr>
+				<WOpTp>6</WOpTp>
+				<DCTmp>TargetTemperatue</DCTmp>
+			</LD>
+			<LD xsi:type="TemperatureSensor" Name="Temperatur (Heizkörper) 1"
+				LCID="7ea4cae1-c72e-415e-b38d-ccace4f0a6ec">
+				<Id>54d522d3-d3e8-4e25-989e-cad356c7b63a</Id>
+				<BDId>6e5c8316-f43e-4618-b913-e65804f824e1</BDId>
+			</LD>
+			<LD xsi:type="RoomTemperatureSensor" Name="Temperatur"
+				LCID="7ea4cae1-c72e-415e-b38d-ccace4f0a6ec">
+				<Id>024480dc-2f4b-4333-98c7-08deaca16ecc</Id>
+				<UDvIds>
+					<guid>54d522d3-d3e8-4e25-989e-cad356c7b63a</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="HumiditySensor" Name="Luftfeuchtigkeit (Heizkörper) 1"
+				LCID="7ea4cae1-c72e-415e-b38d-ccace4f0a6ec">
+				<Id>1955c109-08a0-4733-b489-18921cf28d18</Id>
+				<BDId>6e5c8316-f43e-4618-b913-e65804f824e1</BDId>
+			</LD>
+			<LD xsi:type="RoomHumiditySensor" Name="Luftfeuchtigkeit"
+				LCID="7ea4cae1-c72e-415e-b38d-ccace4f0a6ec">
+				<Id>a8dd372a-b9f5-40dc-8af6-3544b51e5f78</Id>
+				<UDvIds>
+					<guid>1955c109-08a0-4733-b489-18921cf28d18</guid>
+				</UDvIds>
+			</LD>
+			<LD xsi:type="WindowDoorSensor" Name="Tür- und Fenstersensor 1"
+				LCID="350a8196-0ff9-434b-816b-e591aca9e6ab">
+				<Id>a3d93716-957c-4bdc-8f2f-9449393b2172</Id>
+				<BDId>232e8769-0296-45a0-875e-eefc5491af63</BDId>
+				<Installation>Window</Installation>
+				<EventFilterTime>0</EventFilterTime>
+				<WOpFunc>true</WOpFunc>
+			</LD>
+			<LD xsi:type="WindowDoorSensor" Name="Tür- und Fenstersensor 1"
+				LCID="d40b326a-51c1-44c0-8bf0-015bfb27a14f">
+				<Id>832d6c58-e058-4fb6-a25f-ef21c187df99</Id>
+				<BDId>f7a9f81a-477d-420e-b6f2-54a32b6c666a</BDId>
+				<Installation>Window</Installation>
+				<EventFilterTime>0</EventFilterTime>
+				<WOpFunc>true</WOpFunc>
+			</LD>
+			<LD xsi:type="WindowDoorSensor" Name="Tür- und Fenstersensor 1"
+				LCID="0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf">
+				<Id>128c87b6-cfa3-403d-825b-7b6101215579</Id>
+				<BDId>7d9527cf-65f1-4653-a603-09e1fbc76a41</BDId>
+				<Installation>Door</Installation>
+				<EventFilterTime>0</EventFilterTime>
+				<WOpFunc>true</WOpFunc>
+			</LD>
+			<LD xsi:type="WindowDoorSensor" Name="Tür- und Fenstersensor 1"
+				LCID="3c9784fa-1c88-4d35-ada0-89780466d4fc">
+				<Id>68447207-de31-4406-a787-b7f1d201382a</Id>
+				<BDId>e2ab6685-a3c0-4e45-8613-09e73ec445a5</BDId>
+				<Installation>Window</Installation>
+				<EventFilterTime>0</EventFilterTime>
+				<WOpFunc>true</WOpFunc>
+			</LD>
+			<LD xsi:type="WindowDoorSensor" Name="Tür- und Fenstersensor 1"
+				LCID="6a11d743-6986-4880-bfa4-3bed982c8725">
+				<Id>3a4063d2-5bcd-4772-bc9b-c4d645f56d40</Id>
+				<BDId>80063e47-122c-4551-b19d-3a84027b819b</BDId>
+				<Installation>Door</Installation>
+				<EventFilterTime>0</EventFilterTime>
+				<WOpFunc>true</WOpFunc>
+			</LD>
+			<LD xsi:type="WindowDoorSensor" Name="Tür- und Fenstersensor 2"
+				LCID="6a11d743-6986-4880-bfa4-3bed982c8725">
+				<Id>dda8a503-dd18-40b2-978c-3064b77d579d</Id>
+				<BDId>5546250f-4cf3-4703-910e-8a839c0e616f</BDId>
+				<Installation>Window</Installation>
+				<EventFilterTime>0</EventFilterTime>
+				<WOpFunc>true</WOpFunc>
+			</LD>
+			<LD xsi:type="WindowDoorSensor" Name="Tür- und Fenstersensor 2"
+				LCID="01e2f1c7-1d02-4e3a-81de-746af53e24fc">
+				<Id>35549ee6-3989-416e-8201-130921e6ff43</Id>
+				<BDId>e42de822-1153-4c09-a374-0f56b7053122</BDId>
+				<Installation>Door</Installation>
+				<EventFilterTime>0</EventFilterTime>
+				<WOpFunc>false</WOpFunc>
+			</LD>
+			<LD xsi:type="WindowDoorSensor" Name="Tür- und Fenstersensor 1"
+				LCID="52ca89e3-61a8-4e2c-af73-1b0add810e26">
+				<Id>d52cea7b-80f9-4414-9984-caa9e5d2e325</Id>
+				<BDId>8e2f6f4e-b991-4052-bea5-9b248d387b30</BDId>
+				<Installation>Window</Installation>
+				<EventFilterTime>0</EventFilterTime>
+				<WOpFunc>true</WOpFunc>
+			</LD>
+			<LD xsi:type="DimmerActuator" Name="Dimmer-Unterputz 1"
+				LCID="350a8196-0ff9-434b-816b-e591aca9e6ab">
+				<Id>4d15a6c1-188b-4b53-8f64-83b53ae1a578</Id>
+				<BDId>1681bf0f-230b-4e2b-9a57-7c44c5f78ecd</BDId>
+				<ActCls>DimmableLight</ActCls>
+				<DOfStgs xsi:type="DimmerActuatorSettings">
+					<Id>991d5a06-bd54-4dab-8888-161ffbbec0cb</Id>
+					<AcId>4d15a6c1-188b-4b53-8f64-83b53ae1a578</AcId>
+					<DmLvl>0</DmLvl>
+				</DOfStgs>
+				<TMxV>100</TMxV>
+				<TMnV>30</TMnV>
+			</LD>
+			<LD xsi:type="PushButtonSensor" Name="Dimmer-Unterputz 1"
+				LCID="350a8196-0ff9-434b-816b-e591aca9e6ab">
+				<Id>1076b05e-0461-4ae0-8796-cc2c49a469e4</Id>
+				<BDId>1681bf0f-230b-4e2b-9a57-7c44c5f78ecd</BDId>
+				<ButtonCount>2</ButtonCount>
+			</LD>
+			<LD xsi:type="DimmerActuator" Name="Dimmer-Unterputz 1"
+				LCID="d40b326a-51c1-44c0-8bf0-015bfb27a14f">
+				<Id>80d48092-cbe2-4517-bf3b-7d72cea04bae</Id>
+				<BDId>04c25016-2d71-41d7-b85f-5863468d3469</BDId>
+				<ActCls>DimmableLight</ActCls>
+				<DOfStgs xsi:type="DimmerActuatorSettings">
+					<Id>5eff747d-77b3-47c1-ad4b-2b1a47b458f0</Id>
+					<AcId>80d48092-cbe2-4517-bf3b-7d72cea04bae</AcId>
+					<DmLvl>0</DmLvl>
+				</DOfStgs>
+				<TMxV>100</TMxV>
+				<TMnV>30</TMnV>
+			</LD>
+			<LD xsi:type="PushButtonSensor" Name="Dimmer-Unterputz 1"
+				LCID="d40b326a-51c1-44c0-8bf0-015bfb27a14f">
+				<Id>787ac6e8-c307-428a-98a5-f9c16c9b1b4f</Id>
+				<BDId>04c25016-2d71-41d7-b85f-5863468d3469</BDId>
+				<ButtonCount>2</ButtonCount>
+			</LD>
+			<LD xsi:type="MotionDetectionSensor" Name="Bewegung - Bewegungsmelder (außen) 1"
+				LCID="58c3920c-5d62-4eb6-a156-7c34d8d33872">
+				<Id>734cc5b6-d7da-4ba8-b39d-13d893e3617b</Id>
+				<BDId>64fc08bf-0d47-41d4-b201-e697eedb80b9</BDId>
+			</LD>
+			<LD xsi:type="LuminanceSensor" Name="Helligkeit - Bewegungsmelder (außen) 1"
+				LCID="58c3920c-5d62-4eb6-a156-7c34d8d33872">
+				<Id>2c430a0e-632b-4b70-8a9f-88a18e336ace</Id>
+				<BDId>64fc08bf-0d47-41d4-b201-e697eedb80b9</BDId>
+			</LD>
+			<LD xsi:type="DimmerActuator" Name="Dimmer-Unterputz 1"
+				LCID="6a11d743-6986-4880-bfa4-3bed982c8725">
+				<Id>1e5db15c-ef67-4d77-82d0-88f4e02a42c8</Id>
+				<BDId>99bc412e-ef9c-4f1b-ba66-c1a12e8cef70</BDId>
+				<ActCls>DimmableLight</ActCls>
+				<DOfStgs xsi:type="DimmerActuatorSettings">
+					<Id>5e131497-346b-41ea-b8c0-688bfb68dd4f</Id>
+					<AcId>1e5db15c-ef67-4d77-82d0-88f4e02a42c8</AcId>
+					<DmLvl>0</DmLvl>
+				</DOfStgs>
+				<TMxV>100</TMxV>
+				<TMnV>5</TMnV>
+			</LD>
+			<LD xsi:type="PushButtonSensor" Name="Dimmer-Unterputz 1"
+				LCID="6a11d743-6986-4880-bfa4-3bed982c8725">
+				<Id>415718ad-40bb-4277-90c9-ab9e7c0502cd</Id>
+				<BDId>99bc412e-ef9c-4f1b-ba66-c1a12e8cef70</BDId>
+				<ButtonCount>2</ButtonCount>
+			</LD>
+			<LD xsi:type="SwitchActuator" Name="Licht 1"
+				LCID="58c3920c-5d62-4eb6-a156-7c34d8d33872">
+				<Id>c277ea26-2338-4fb0-af91-99e31f2af314</Id>
+				<BDId>db9f842b-c47a-4218-97c7-94280b8fc968</BDId>
+				<ActCls>Light</ActCls>
+				<DOfStgs xsi:type="SwitchActuatorSettings">
+					<Id>1f484e2b-6327-4735-9742-319719238574</Id>
+					<AcId>c277ea26-2338-4fb0-af91-99e31f2af314</AcId>
+					<IsOn>false</IsOn>
+				</DOfStgs>
+				<SensingBehavior>Enabled</SensingBehavior>
+			</LD>
+			<LD xsi:type="PushButtonSensor" Name="Lichtschalter-Unterputz 2"
+				LCID="58c3920c-5d62-4eb6-a156-7c34d8d33872">
+				<Id>3012da43-7048-45e7-833d-60a413aedc5f</Id>
+				<BDId>db9f842b-c47a-4218-97c7-94280b8fc968</BDId>
+				<ButtonCount>2</ButtonCount>
+			</LD>
+			<LD xsi:type="DimmerActuator" Name="Dimmer-Unterputz 2"
+				LCID="52ca89e3-61a8-4e2c-af73-1b0add810e26">
+				<Id>beb47b9c-15f8-4d0c-b852-22c0c8cd7b2b</Id>
+				<BDId>eb0da361-6ed4-446c-8993-487eca189ec3</BDId>
+				<ActCls>DimmableLight</ActCls>
+				<DOfStgs xsi:type="DimmerActuatorSettings">
+					<Id>90b05158-4034-479f-a192-dc3608d25636</Id>
+					<AcId>beb47b9c-15f8-4d0c-b852-22c0c8cd7b2b</AcId>
+					<DmLvl>0</DmLvl>
+				</DOfStgs>
+				<TMxV>100</TMxV>
+				<TMnV>30</TMnV>
+			</LD>
+			<LD xsi:type="PushButtonSensor" Name="Dimmer-Unterputz 2"
+				LCID="52ca89e3-61a8-4e2c-af73-1b0add810e26">
+				<Id>ee9ceaab-6ba7-44e5-8445-7de8be97e558</Id>
+				<BDId>eb0da361-6ed4-446c-8993-487eca189ec3</BDId>
+				<ButtonCount>2</ButtonCount>
+			</LD>
+			<LD xsi:type="SwitchActuator" Name="Licht 2"
+				LCID="8ce9da40-40ab-4bd7-a430-31be994d2b8e">
+				<Id>9edbc127-7b4f-4575-9f5e-344d57cd27ec</Id>
+				<BDId>f171e951-4486-4f25-bbdb-2f00b8a7bdfb</BDId>
+				<ActCls>Light</ActCls>
+				<DOfStgs xsi:type="SwitchActuatorSettings">
+					<Id>d94c8582-7e5e-4eec-b4e1-06c9c42b946c</Id>
+					<AcId>9edbc127-7b4f-4575-9f5e-344d57cd27ec</AcId>
+					<IsOn>false</IsOn>
+				</DOfStgs>
+			</LD>
+			<LD xsi:type="PushButtonSensor" Name="Lichtschalter-Unterputz 1"
+				LCID="8ce9da40-40ab-4bd7-a430-31be994d2b8e">
+				<Id>cc92ee12-fc9b-48ae-bad9-85cef01fd51c</Id>
+				<BDId>f171e951-4486-4f25-bbdb-2f00b8a7bdfb</BDId>
+				<ButtonCount>2</ButtonCount>
+			</LD>
+			<LD xsi:type="SwitchActuator" Name="Licht 3"
+				LCID="0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf">
+				<Id>e7212e7b-7fa7-4758-940e-f0d528cdff4a</Id>
+				<BDId>dec826f2-6562-49cd-80cd-d3a88ed7addc</BDId>
+				<ActCls>Light</ActCls>
+				<DOfStgs xsi:type="SwitchActuatorSettings">
+					<Id>cc77b67c-0c92-4979-9be2-1ab87dd357f7</Id>
+					<AcId>e7212e7b-7fa7-4758-940e-f0d528cdff4a</AcId>
+					<IsOn>false</IsOn>
+				</DOfStgs>
+				<SensingBehavior>DisabledReversed</SensingBehavior>
+			</LD>
+			<LD xsi:type="PushButtonSensor" Name="Lichtschalter-Unterputz 3"
+				LCID="0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf">
+				<Id>9b610664-cc04-442a-a58a-96ba0781afea</Id>
+				<BDId>dec826f2-6562-49cd-80cd-d3a88ed7addc</BDId>
+				<ButtonCount>2</ButtonCount>
+			</LD>
+			<LD xsi:type="DimmerActuator" Name="Dimmer-Unterputz 3"
+				LCID="0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf">
+				<Id>bf947644-6f71-4b04-a5d0-e593d124522d</Id>
+				<BDId>919d20ee-986d-499b-8979-c71b1edb331b</BDId>
+				<ActCls>DimmableLight</ActCls>
+				<DOfStgs xsi:type="DimmerActuatorSettings">
+					<Id>4ec03e19-98a7-4bab-8df0-916ac87dfbe1</Id>
+					<AcId>bf947644-6f71-4b04-a5d0-e593d124522d</AcId>
+					<DmLvl>0</DmLvl>
+				</DOfStgs>
+				<TMxV>100</TMxV>
+				<TMnV>30</TMnV>
+			</LD>
+			<LD xsi:type="PushButtonSensor" Name="Dimmer-Unterputz 3"
+				LCID="0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf">
+				<Id>45a9d7a0-9e49-4aa6-b552-9b7cfb1213c0</Id>
+				<BDId>919d20ee-986d-499b-8979-c71b1edb331b</BDId>
+				<ButtonCount>2</ButtonCount>
+			</LD>
+		</LDs>
+		<PFs>
+			<PF xsi:type="TimeProfile" IsVisible="true">
+				<Id>f8db2060-a3bf-40fa-9cd1-2b0aa2520a39</Id>
+				<Name>Wohnzimer&amp;Flur</Name>
+				<State>Active</State>
+				<LCID>21a31d15-168f-47f1-87d0-e9baeacfcbef</LCID>
+				<AcCtIds />
+				<SPts>
+					<Spt>
+						<Id>8bf2076e-13d9-4726-ad43-73126d0be9c3</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T05:46:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>9c833be5-97f6-411f-81a7-7c3aa9c44f44</Id>
+								<AcId>6129a701-5ba5-4a17-b703-47c5128f6ad1</AcId>
+								<PtTmp>19</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>d55763fd-07cb-4f97-88cc-91a941be70f7</Id>
+								<AcId>c7471a3d-751a-45dc-a467-dd88a4e9c0d6</AcId>
+								<PtTmp>19</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>e1f56389-9b18-4fe6-add0-416d37c94b61</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T08:00:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>73a042b0-656f-4039-8d52-fef92ca993f7</Id>
+								<AcId>6129a701-5ba5-4a17-b703-47c5128f6ad1</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>504e29a4-825d-4f8a-9da3-8d0e3c6b3f34</Id>
+								<AcId>c7471a3d-751a-45dc-a467-dd88a4e9c0d6</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>280c3a86-4800-4f9a-a1a9-4e58f3544ede</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T17:30:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>8b9ff789-92fd-45de-be54-bfbfa8a9da8e</Id>
+								<AcId>6129a701-5ba5-4a17-b703-47c5128f6ad1</AcId>
+								<PtTmp>20</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>f036c376-5040-4f01-a030-86feb0809217</Id>
+								<AcId>c7471a3d-751a-45dc-a467-dd88a4e9c0d6</AcId>
+								<PtTmp>20</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>b0b5a9b0-cdbd-4bec-b4c4-b74479996ec5</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T21:00:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>b66e8bbb-590f-4d92-aa58-6887285f3f02</Id>
+								<AcId>6129a701-5ba5-4a17-b703-47c5128f6ad1</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>93724cb3-594e-4d05-ba0d-c70391194af5</Id>
+								<AcId>c7471a3d-751a-45dc-a467-dd88a4e9c0d6</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+				</SPts>
+			</PF>
+			<PF xsi:type="TimeProfile" IsVisible="true">
+				<Id>e10bb949-1e16-4b6f-b9ca-510f705d0499</Id>
+				<Name>Bad</Name>
+				<State>Active</State>
+				<LCID>01e2f1c7-1d02-4e3a-81de-746af53e24fc</LCID>
+				<AcCtIds />
+				<SPts>
+					<Spt>
+						<Id>8f24bd2e-450d-487c-a1c0-100e8b3d58e6</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T05:30:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>6e9e667d-d9f0-49db-aad6-d1772fb8f8b0</Id>
+								<AcId>5b6aec0f-0073-4b8f-8df8-55d359dfde33</AcId>
+								<PtTmp>20</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>06f3ea83-7421-4432-aa29-b4b54624b859</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T06:16:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>30579efd-2d44-4fd8-aef2-2fc2e8706e71</Id>
+								<AcId>5b6aec0f-0073-4b8f-8df8-55d359dfde33</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>2b4076c6-1e7c-4630-b99b-65aee139748f</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T19:00:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>c50a3b78-fe2f-49f4-b90a-852f3e875f8c</Id>
+								<AcId>5b6aec0f-0073-4b8f-8df8-55d359dfde33</AcId>
+								<PtTmp>20</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>ce1fe0a4-d807-40d7-b033-b1b8f9b7e440</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T21:30:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>beabe4dd-c2a8-4051-93db-f0416eb2349f</Id>
+								<AcId>5b6aec0f-0073-4b8f-8df8-55d359dfde33</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+				</SPts>
+			</PF>
+			<PF xsi:type="TimeProfile" IsVisible="true">
+				<Id>1023fa87-d5e5-4cdb-b32c-95a81f55ea54</Id>
+				<Name>Wohnzimmer&amp;Flur WE</Name>
+				<State>Active</State>
+				<LCID>21a31d15-168f-47f1-87d0-e9baeacfcbef</LCID>
+				<AcCtIds />
+				<SPts>
+					<Spt>
+						<Id>d595b0d0-640a-46cb-a2c4-a37c18043acf</Id>
+						<Wdy>Sunday Saturday</Wdy>
+						<Tm>2010-01-01T08:01:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>53538d96-7925-44d0-bfbe-58d971ac31c1</Id>
+								<AcId>6129a701-5ba5-4a17-b703-47c5128f6ad1</AcId>
+								<PtTmp>19</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>55b04e0f-6779-4f50-a2d4-f5d4596241ac</Id>
+								<AcId>b76e18a1-7de9-4cc4-b140-b2a3155d0ce0</AcId>
+								<PtTmp>19</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>84990556-efde-4645-9001-4f54f1f1b372</Id>
+								<AcId>889613f1-3873-4a11-b1c7-1b393f8b6963</AcId>
+								<PtTmp>19</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>44bf3cc8-fa39-4f40-833e-a7ecb82b5c88</Id>
+								<AcId>c7471a3d-751a-45dc-a467-dd88a4e9c0d6</AcId>
+								<PtTmp>19</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>b99759c3-7fe4-45ca-8a6e-beb5da20183b</Id>
+						<Wdy>Sunday Saturday</Wdy>
+						<Tm>2010-01-01T19:59:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>0b509174-250d-472d-9ab3-1136f6eeacd7</Id>
+								<AcId>6129a701-5ba5-4a17-b703-47c5128f6ad1</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>eda02cdb-4903-447a-a722-115b8ace7c05</Id>
+								<AcId>b76e18a1-7de9-4cc4-b140-b2a3155d0ce0</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>be291d7a-fa1b-4928-b68e-4480ddafcf1f</Id>
+								<AcId>889613f1-3873-4a11-b1c7-1b393f8b6963</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>78ca61e9-31ef-4bd9-a4c1-7a269f6e8228</Id>
+								<AcId>c7471a3d-751a-45dc-a467-dd88a4e9c0d6</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+				</SPts>
+			</PF>
+			<PF xsi:type="TimeProfile" IsVisible="true">
+				<Id>09f5c9fe-471c-4680-9222-7ea4c47dc2a6</Id>
+				<Name>Bad WE</Name>
+				<State>Active</State>
+				<LCID>01e2f1c7-1d02-4e3a-81de-746af53e24fc</LCID>
+				<AcCtIds />
+				<SPts>
+					<Spt>
+						<Id>434a71dc-dc2f-41d9-af36-29a635abe645</Id>
+						<Wdy>Sunday Saturday</Wdy>
+						<Tm>2010-01-01T08:01:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>3711a933-01cc-46a9-82ee-6289e3179976</Id>
+								<AcId>5b6aec0f-0073-4b8f-8df8-55d359dfde33</AcId>
+								<PtTmp>20</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>059478fe-9675-4e5f-ab93-deff7bbafa0f</Id>
+						<Wdy>Sunday Saturday</Wdy>
+						<Tm>2010-01-01T09:00:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>9c6aa895-4657-4315-8831-d90ab947fb71</Id>
+								<AcId>5b6aec0f-0073-4b8f-8df8-55d359dfde33</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>353041bf-ea24-4105-8d04-a85412a48117</Id>
+						<Wdy>Sunday Saturday</Wdy>
+						<Tm>2010-01-01T18:00:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>f0a6700e-57cd-4b54-8aab-345751aae697</Id>
+								<AcId>5b6aec0f-0073-4b8f-8df8-55d359dfde33</AcId>
+								<PtTmp>20</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>ad781535-6115-4a61-8885-5c1663963608</Id>
+						<Wdy>Sunday Saturday</Wdy>
+						<Tm>2010-01-01T22:00:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>67b00d25-7ec6-477e-9931-fb74e9d1e0e0</Id>
+								<AcId>5b6aec0f-0073-4b8f-8df8-55d359dfde33</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+				</SPts>
+			</PF>
+			<PF xsi:type="TimeProfile" IsVisible="true">
+				<Id>f7de76a9-9921-4a6a-b83c-73fffcbcb7a2</Id>
+				<Name>Kueche WD</Name>
+				<State>Active</State>
+				<LCID>6a11d743-6986-4880-bfa4-3bed982c8725</LCID>
+				<AcCtIds />
+				<SPts>
+					<Spt>
+						<Id>d87a6b29-9e39-4763-b4ab-904fedfd5923</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T05:30:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>a5824b3e-cc99-4fc5-877b-b09ea3d926a8</Id>
+								<AcId>c645db7a-4469-4096-9598-d3ce3af2c231</AcId>
+								<PtTmp>19</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>1abf9ece-9366-4f6c-821b-3c1214470afc</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T08:00:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>ff430a2e-b182-4a69-92bf-449ad3488d3e</Id>
+								<AcId>c645db7a-4469-4096-9598-d3ce3af2c231</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>dd138279-e5cc-45aa-a637-71d26cc4defa</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T17:00:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>26da01f1-8b11-4144-8980-77bb53832d8f</Id>
+								<AcId>c645db7a-4469-4096-9598-d3ce3af2c231</AcId>
+								<PtTmp>19</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>58fd607d-0fab-4718-b10d-e332038989b3</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T21:02:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>6bab807c-1006-4182-acb2-eb8ae3ce0af3</Id>
+								<AcId>c645db7a-4469-4096-9598-d3ce3af2c231</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+				</SPts>
+			</PF>
+			<PF xsi:type="TimeProfile" IsVisible="true">
+				<Id>c915be2a-a689-4554-a139-95de15791795</Id>
+				<Name>Kueche WE</Name>
+				<State>Active</State>
+				<LCID>6a11d743-6986-4880-bfa4-3bed982c8725</LCID>
+				<AcCtIds />
+				<SPts>
+					<Spt>
+						<Id>4487d241-3a6c-48fb-8687-843789c10b20</Id>
+						<Wdy>Sunday Saturday</Wdy>
+						<Tm>2010-01-01T08:00:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>a409ca7e-62a5-4905-adf2-d1972740648a</Id>
+								<AcId>c645db7a-4469-4096-9598-d3ce3af2c231</AcId>
+								<PtTmp>19</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>43363495-6451-4afc-8e11-4186e8954c24</Id>
+						<Wdy>Sunday Saturday</Wdy>
+						<Tm>2010-01-01T21:00:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>7390e3ad-e6bb-4a8b-b1af-f44d8c09e71e</Id>
+								<AcId>c645db7a-4469-4096-9598-d3ce3af2c231</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+				</SPts>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="false">
+				<Id>7e06294c-f96b-403b-9868-8091e53a1080</Id>
+				<Name>WindowReductionProfileBAD 1</Name>
+				<State>Active</State>
+				<LCID>01e2f1c7-1d02-4e3a-81de-746af53e24fc</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="RoomTemperatureActuatorSettings">
+						<Id>e9f4fc96-ae49-4bb2-b12d-d5b06c73d4d6</Id>
+						<AcId>5b6aec0f-0073-4b8f-8df8-55d359dfde33</AcId>
+						<WndRd>true</WndRd>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="WindowDoorSensorSettings">
+						<Id>a55c9375-3121-4dd2-b931-67d3ed5a1618</Id>
+						<LDId>117d3b61-2d27-4b01-b8b3-69df20cd9523</LDId>
+						<OpEvAc>WindowReduction</OpEvAc>
+						<ClEvAc>WindowReduction</ClEvAc>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="TimeProfile" IsVisible="true">
+				<Id>6c1f709f-193c-445e-b676-d8117db1275a</Id>
+				<Name>Gaste WC</Name>
+				<State>Active</State>
+				<LCID>3c9784fa-1c88-4d35-ada0-89780466d4fc</LCID>
+				<AcCtIds />
+				<SPts>
+					<Spt>
+						<Id>17832929-0a25-4360-b66c-e33f2b8bd51a</Id>
+						<Wdy>Sunday Thursday Saturday Friday Monday Tuesday Wednesday
+						</Wdy>
+						<Tm>2010-01-01T08:01:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>7383aa77-766c-4578-afb0-31bcc21f9a36</Id>
+								<AcId>12850f10-a320-4733-a2e0-6f5c835edd23</AcId>
+								<PtTmp>19</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>24c8552e-b1d9-4fd5-b94b-eb68a6252347</Id>
+						<Wdy>Sunday Thursday Saturday Friday Monday Tuesday Wednesday
+						</Wdy>
+						<Tm>2010-01-01T10:01:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>c328c7c3-909b-48e7-938c-7e21adc16996</Id>
+								<AcId>12850f10-a320-4733-a2e0-6f5c835edd23</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>129ac355-2d40-4637-830a-a2e7dcbf69cf</Id>
+						<Wdy>Sunday Thursday Saturday Friday Monday Tuesday Wednesday
+						</Wdy>
+						<Tm>2010-01-01T17:00:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>5ef96ad5-7357-4e66-bb4d-6f502f711b22</Id>
+								<AcId>12850f10-a320-4733-a2e0-6f5c835edd23</AcId>
+								<PtTmp>19</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>c0f2b79c-867e-4598-940b-2cd8cfe9e480</Id>
+						<Wdy>Sunday Thursday Saturday Friday Monday Tuesday Wednesday
+						</Wdy>
+						<Tm>2010-01-01T22:00:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>7675efab-5afa-47e7-9d40-7e62defc5e66</Id>
+								<AcId>12850f10-a320-4733-a2e0-6f5c835edd23</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+				</SPts>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="false">
+				<Id>67aefcd5-580d-450a-9cab-6e6d2e09ca11</Id>
+				<Name>WindowReductionProfileSCHLAFZIMMER 1</Name>
+				<State>Active</State>
+				<LCID>0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="RoomTemperatureActuatorSettings">
+						<Id>eb11a496-b727-436e-bd40-0a91110483bf</Id>
+						<AcId>41f3fb55-a28b-449a-9a96-86cc3a9ff632</AcId>
+						<WndRd>true</WndRd>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="WindowDoorSensorSettings">
+						<Id>27d4fcf1-f5d5-4da0-a31b-2adebf0c6410</Id>
+						<LDId>128c87b6-cfa3-403d-825b-7b6101215579</LDId>
+						<OpEvAc>WindowReduction</OpEvAc>
+						<ClEvAc>WindowReduction</ClEvAc>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="false">
+				<Id>62c9455d-dc78-4a50-b49b-69e2dfc1032b</Id>
+				<Name>WindowReductionProfileANNASOPHIA ZIMMER 1</Name>
+				<State>Active</State>
+				<LCID>d40b326a-51c1-44c0-8bf0-015bfb27a14f</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="RoomTemperatureActuatorSettings">
+						<Id>9fc7689e-1ebc-41c9-89a4-b348e0aa0b85</Id>
+						<AcId>889613f1-3873-4a11-b1c7-1b393f8b6963</AcId>
+						<WndRd>true</WndRd>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="WindowDoorSensorSettings">
+						<Id>9bdd39c8-cf12-42ee-932b-fa36ef0b54b6</Id>
+						<LDId>832d6c58-e058-4fb6-a25f-ef21c187df99</LDId>
+						<OpEvAc>WindowReduction</OpEvAc>
+						<ClEvAc>WindowReduction</ClEvAc>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="false">
+				<Id>774c0d5f-7a6c-4473-9dff-c2edd0188cf7</Id>
+				<Name>WindowReductionProfileISABELLE ZIMMER 1</Name>
+				<State>Active</State>
+				<LCID>350a8196-0ff9-434b-816b-e591aca9e6ab</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="RoomTemperatureActuatorSettings">
+						<Id>50bbcc2e-85e0-4830-8a24-5ea777ce32dd</Id>
+						<AcId>b76e18a1-7de9-4cc4-b140-b2a3155d0ce0</AcId>
+						<WndRd>true</WndRd>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="WindowDoorSensorSettings">
+						<Id>a0df5798-ff65-45c3-8847-5f60e62df371</Id>
+						<LDId>a3d93716-957c-4bdc-8f2f-9449393b2172</LDId>
+						<OpEvAc>WindowReduction</OpEvAc>
+						<ClEvAc>WindowReduction</ClEvAc>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="false">
+				<Id>bcf41b51-63e1-4db5-b9d7-715beab349be</Id>
+				<Name>WindowReductionProfileGASTE BAD 1</Name>
+				<State>Active</State>
+				<LCID>3c9784fa-1c88-4d35-ada0-89780466d4fc</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="RoomTemperatureActuatorSettings">
+						<Id>416530cf-c6c3-4617-8524-cbbf43141274</Id>
+						<AcId>12850f10-a320-4733-a2e0-6f5c835edd23</AcId>
+						<WndRd>true</WndRd>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="WindowDoorSensorSettings">
+						<Id>0089d203-758b-4a12-9114-a2ca8f59e6f0</Id>
+						<LDId>68447207-de31-4406-a787-b7f1d201382a</LDId>
+						<OpEvAc>WindowReduction</OpEvAc>
+						<ClEvAc>WindowReduction</ClEvAc>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="false">
+				<Id>91804eb0-a7c2-4e8c-a843-bcc4aec2e78a</Id>
+				<Name>WindowReductionProfileKÜCHE 1</Name>
+				<State>Active</State>
+				<LCID>6a11d743-6986-4880-bfa4-3bed982c8725</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="RoomTemperatureActuatorSettings">
+						<Id>026a412b-a3ea-4b78-9ed1-1ee5c3a12003</Id>
+						<AcId>c645db7a-4469-4096-9598-d3ce3af2c231</AcId>
+						<WndRd>true</WndRd>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="WindowDoorSensorSettings">
+						<Id>4a7c0def-f77c-4aa6-b3be-8963100b97e6</Id>
+						<LDId>3a4063d2-5bcd-4772-bc9b-c4d645f56d40</LDId>
+						<OpEvAc>WindowReduction</OpEvAc>
+						<ClEvAc>WindowReduction</ClEvAc>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="false">
+				<Id>cbc089fa-a2db-418c-83c2-d32afca2a88d</Id>
+				<Name>WindowReductionProfileKÜCHE 2</Name>
+				<State>Active</State>
+				<LCID>6a11d743-6986-4880-bfa4-3bed982c8725</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="RoomTemperatureActuatorSettings">
+						<Id>105824a7-8530-4c7f-b632-aaf10cd8d76e</Id>
+						<AcId>c645db7a-4469-4096-9598-d3ce3af2c231</AcId>
+						<WndRd>true</WndRd>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="WindowDoorSensorSettings">
+						<Id>10f6b38a-9632-48e2-85e5-1112ade1a33b</Id>
+						<LDId>dda8a503-dd18-40b2-978c-3064b77d579d</LDId>
+						<OpEvAc>WindowReduction</OpEvAc>
+						<ClEvAc>WindowReduction</ClEvAc>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="false">
+				<Id>1275f014-963b-41d3-9b2d-0394a0e3bc02</Id>
+				<Name>WindowReductionProfileGASTE ZIMMER 1</Name>
+				<State>Active</State>
+				<LCID>52ca89e3-61a8-4e2c-af73-1b0add810e26</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="RoomTemperatureActuatorSettings">
+						<Id>c3871b82-cc19-4638-9641-2b6596deceb6</Id>
+						<AcId>413b1399-7a09-4ac3-aebd-91687369f8a9</AcId>
+						<WndRd>true</WndRd>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="WindowDoorSensorSettings">
+						<Id>268a9f70-1aed-4dff-95d8-8c2e3fc3cb16</Id>
+						<LDId>d52cea7b-80f9-4414-9984-caa9e5d2e325</LDId>
+						<OpEvAc>WindowReduction</OpEvAc>
+						<ClEvAc>WindowReduction</ClEvAc>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="true">
+				<Id>12c4aff7-d301-4fea-88c1-4d2de8d5de8b</Id>
+				<Name>Dimmer Ereignis 1</Name>
+				<State>Active</State>
+				<LCID>350a8196-0ff9-434b-816b-e591aca9e6ab</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="DimmerActuatorSettings">
+						<Id>11f66feb-9d9b-4d14-a918-da0f2245debd</Id>
+						<AcId>4d15a6c1-188b-4b53-8f64-83b53ae1a578</AcId>
+						<SfOn>0</SfOn>
+						<SfOf>0</SfOf>
+						<OffTmr>0</OffTmr>
+						<DmLvl>100</DmLvl>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="PushButtonSensorSettings">
+						<Id>cbebd93a-180a-4e5d-9394-b0b160c15446</Id>
+						<LDId>1076b05e-0461-4ae0-8796-cc2c49a469e4</LDId>
+						<BtnAsgs>
+							<BtnAsg Index="0" Action="On" />
+							<BtnAsg Index="1" Action="Off" />
+						</BtnAsgs>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="TimeProfile" IsVisible="true">
+				<Id>2dce592a-24f2-440e-b9bf-e8ae0536db9d</Id>
+				<Name>Isabelle Licht Show</Name>
+				<State>Active</State>
+				<LCID>350a8196-0ff9-434b-816b-e591aca9e6ab</LCID>
+				<AcCtIds />
+				<SPts>
+					<Spt>
+						<Id>2123a415-3cd1-43b3-932b-fcee06811059</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T06:00:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="DimmerActuatorSettings">
+								<Id>4bca6477-7972-4fc0-a511-e676dc8a9508</Id>
+								<AcId>4d15a6c1-188b-4b53-8f64-83b53ae1a578</AcId>
+								<DmLvl>10</DmLvl>
+							</AcStg>
+							<AcStg xsi:type="DimmerActuatorSettings">
+								<Id>9774cccf-96cb-4ff6-9090-423151895e4e</Id>
+								<AcId>80d48092-cbe2-4517-bf3b-7d72cea04bae</AcId>
+								<DmLvl>10</DmLvl>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>dcaa8592-5b56-49c5-a403-6e4f44bd72ee</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T06:11:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="DimmerActuatorSettings">
+								<Id>b8af463c-3d10-463a-885d-af75dc804dd3</Id>
+								<AcId>4d15a6c1-188b-4b53-8f64-83b53ae1a578</AcId>
+								<DmLvl>26</DmLvl>
+							</AcStg>
+							<AcStg xsi:type="DimmerActuatorSettings">
+								<Id>78e5d2c6-942d-4e5f-93a3-af7707b0d9c8</Id>
+								<AcId>80d48092-cbe2-4517-bf3b-7d72cea04bae</AcId>
+								<DmLvl>26</DmLvl>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>d1aecba1-b102-45d8-9d36-622c57f88cdc</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T06:16:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="DimmerActuatorSettings">
+								<Id>7490972e-9850-4621-8bd7-dd34c290ebe2</Id>
+								<AcId>4d15a6c1-188b-4b53-8f64-83b53ae1a578</AcId>
+								<DmLvl>51</DmLvl>
+							</AcStg>
+							<AcStg xsi:type="DimmerActuatorSettings">
+								<Id>aaee3145-2674-4ee2-bae5-e8cd1584a0a4</Id>
+								<AcId>80d48092-cbe2-4517-bf3b-7d72cea04bae</AcId>
+								<DmLvl>51</DmLvl>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>ff42f146-2b04-48bf-9df9-e44fbba464a4</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T06:35:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="DimmerActuatorSettings">
+								<Id>933a356d-f047-4bae-9ee6-2d08f315ef36</Id>
+								<AcId>4d15a6c1-188b-4b53-8f64-83b53ae1a578</AcId>
+								<DmLvl>0</DmLvl>
+							</AcStg>
+							<AcStg xsi:type="DimmerActuatorSettings">
+								<Id>00690577-baf3-4950-b349-f74c7daf9700</Id>
+								<AcId>80d48092-cbe2-4517-bf3b-7d72cea04bae</AcId>
+								<DmLvl>0</DmLvl>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>8e9e748a-8555-4f16-a487-5e8d93116431</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T18:00:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="DimmerActuatorSettings">
+								<Id>e07d7f8b-e44f-4b77-9427-6ced18c28ce1</Id>
+								<AcId>4d15a6c1-188b-4b53-8f64-83b53ae1a578</AcId>
+								<DmLvl>35</DmLvl>
+							</AcStg>
+							<AcStg xsi:type="DimmerActuatorSettings">
+								<Id>a6e3fb2f-d2d2-4b28-833a-9db890d72d2e</Id>
+								<AcId>80d48092-cbe2-4517-bf3b-7d72cea04bae</AcId>
+								<DmLvl>35</DmLvl>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>f89595fa-e3f2-422d-9910-68c92f169ea1</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T20:10:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="DimmerActuatorSettings">
+								<Id>e72f787b-9579-4d3b-a66c-673a6513b622</Id>
+								<AcId>4d15a6c1-188b-4b53-8f64-83b53ae1a578</AcId>
+								<DmLvl>0</DmLvl>
+							</AcStg>
+							<AcStg xsi:type="DimmerActuatorSettings">
+								<Id>f126277e-5062-4082-b207-45bc8026f515</Id>
+								<AcId>80d48092-cbe2-4517-bf3b-7d72cea04bae</AcId>
+								<DmLvl>0</DmLvl>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+				</SPts>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="true">
+				<Id>2929a79f-7cb0-412e-9c21-e0726a53e7f9</Id>
+				<Name>Dimmer Ereignis 1</Name>
+				<State>Active</State>
+				<LCID>d40b326a-51c1-44c0-8bf0-015bfb27a14f</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="DimmerActuatorSettings">
+						<Id>35a043b9-82df-44f4-ac38-6dc1d65a20fd</Id>
+						<AcId>80d48092-cbe2-4517-bf3b-7d72cea04bae</AcId>
+						<SfOn>0</SfOn>
+						<SfOf>0</SfOf>
+						<OffTmr>0</OffTmr>
+						<DmLvl>100</DmLvl>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="PushButtonSensorSettings">
+						<Id>b4c4ffd4-0271-4684-9ed2-dfcd8308decf</Id>
+						<LDId>787ac6e8-c307-428a-98a5-f9c16c9b1b4f</LDId>
+						<BtnAsgs>
+							<BtnAsg Index="0" Action="On" />
+							<BtnAsg Index="1" Action="Off" />
+						</BtnAsgs>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="true">
+				<Id>7b755092-7478-4517-a242-90af9f452c7d</Id>
+				<Name>Licht Tuer an</Name>
+				<State>Active</State>
+				<LCID>58c3920c-5d62-4eb6-a156-7c34d8d33872</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="SwitchActuatorSettings">
+						<Id>195ef58c-0b69-4200-8ff2-90e1041612c0</Id>
+						<AcId>c277ea26-2338-4fb0-af91-99e31f2af314</AcId>
+						<OffTmr>0</OffTmr>
+						<IsOn>true</IsOn>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="LuminanceSensorSettings">
+						<Id>192d3d65-2621-47bd-be78-546cfdcfbfbd</Id>
+						<LDId>2c430a0e-632b-4b70-8a9f-88a18e336ace</LDId>
+						<LmTh>35</LmTh>
+						<LmThOp>Less</LmThOp>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="true">
+				<Id>ff38788b-24ac-404f-881d-3a33b42f2119</Id>
+				<Name>Dimmer Ereignis 1</Name>
+				<State>Active</State>
+				<LCID>6a11d743-6986-4880-bfa4-3bed982c8725</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="DimmerActuatorSettings">
+						<Id>25457d66-0a28-4bfb-998b-4be11e6643bc</Id>
+						<AcId>1e5db15c-ef67-4d77-82d0-88f4e02a42c8</AcId>
+						<SfOn>0</SfOn>
+						<SfOf>0</SfOf>
+						<OffTmr>0</OffTmr>
+						<DmLvl>100</DmLvl>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="PushButtonSensorSettings">
+						<Id>9f26a9bb-1f9c-43a7-9e8e-c54f6f057377</Id>
+						<LDId>415718ad-40bb-4277-90c9-ab9e7c0502cd</LDId>
+						<BtnAsgs>
+							<BtnAsg Index="0" Action="Off" />
+							<BtnAsg Index="1" Action="On" />
+						</BtnAsgs>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="true">
+				<Id>9fdbdc91-3606-4d34-bd75-854b671db77f</Id>
+				<Name>Licht Ereignis 1</Name>
+				<State>Active</State>
+				<LCID>58c3920c-5d62-4eb6-a156-7c34d8d33872</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="SwitchActuatorSettings">
+						<Id>4a681b16-e088-4a58-8077-746284bcdb43</Id>
+						<AcId>c277ea26-2338-4fb0-af91-99e31f2af314</AcId>
+						<IsOn>true</IsOn>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="PushButtonSensorSettings">
+						<Id>7d2cae93-4af0-4e6e-bc5a-435b20acd96d</Id>
+						<LDId>3012da43-7048-45e7-833d-60a413aedc5f</LDId>
+						<BtnAsgs>
+							<BtnAsg Index="0" Action="On" />
+							<BtnAsg Index="1" Action="Off" />
+						</BtnAsgs>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="true">
+				<Id>c687b3ff-ad2a-434b-86db-c22d7376cf2e</Id>
+				<Name>Tuer Licht aus</Name>
+				<State>Active</State>
+				<LCID>58c3920c-5d62-4eb6-a156-7c34d8d33872</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="SwitchActuatorSettings">
+						<Id>a5bd08e4-cdd6-461a-a5fa-26ce583f8d7d</Id>
+						<AcId>c277ea26-2338-4fb0-af91-99e31f2af314</AcId>
+						<IsOn>false</IsOn>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="LuminanceSensorSettings">
+						<Id>6f75e5ad-5b04-46a5-8071-a5347c54c3cb</Id>
+						<LDId>2c430a0e-632b-4b70-8a9f-88a18e336ace</LDId>
+						<LmTh>45</LmTh>
+						<LmThOp>Greater</LmThOp>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="true">
+				<Id>e76b22f5-b172-4e21-b56d-119a99470212</Id>
+				<Name>Dimmer Ereignis 2</Name>
+				<State>Active</State>
+				<LCID>52ca89e3-61a8-4e2c-af73-1b0add810e26</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="DimmerActuatorSettings">
+						<Id>75036c87-35f7-4cd5-8ec3-5a10ef0f1f9b</Id>
+						<AcId>beb47b9c-15f8-4d0c-b852-22c0c8cd7b2b</AcId>
+						<SfOn>0</SfOn>
+						<SfOf>0</SfOf>
+						<OffTmr>0</OffTmr>
+						<DmLvl>100</DmLvl>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="PushButtonSensorSettings">
+						<Id>073b0331-7482-434d-90c2-41c079013aa6</Id>
+						<LDId>ee9ceaab-6ba7-44e5-8445-7de8be97e558</LDId>
+						<BtnAsgs>
+							<BtnAsg Index="0" Action="On" />
+							<BtnAsg Index="1" Action="Off" />
+						</BtnAsgs>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="true">
+				<Id>1a879089-5c99-408a-ba74-bab3bdd483cf</Id>
+				<Name>Licht Ereignis 2</Name>
+				<State>Active</State>
+				<LCID>8ce9da40-40ab-4bd7-a430-31be994d2b8e</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="SwitchActuatorSettings">
+						<Id>c95e35ef-b72a-4654-a595-f1c857a808c9</Id>
+						<AcId>9edbc127-7b4f-4575-9f5e-344d57cd27ec</AcId>
+						<IsOn>true</IsOn>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="PushButtonSensorSettings">
+						<Id>e08aaf37-5056-450e-ae1c-8ad6c5cf7a92</Id>
+						<LDId>cc92ee12-fc9b-48ae-bad9-85cef01fd51c</LDId>
+						<BtnAsgs>
+							<BtnAsg Index="0" Action="On" />
+							<BtnAsg Index="1" Action="Off" />
+						</BtnAsgs>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="true">
+				<Id>f0dac342-18ff-4b1b-9ad6-4e711181f00c</Id>
+				<Name>Licht Ereignis 3</Name>
+				<State>Inactive</State>
+				<LCID>0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="SwitchActuatorSettings">
+						<Id>7f54193f-a96c-4612-b7a0-c61a50a5084e</Id>
+						<AcId>e7212e7b-7fa7-4758-940e-f0d528cdff4a</AcId>
+						<IsOn>true</IsOn>
+					</AcStg>
+				</AcStgs>
+				<SStgs />
+			</PF>
+			<PF xsi:type="TimeProfile" IsVisible="true">
+				<Id>26684fd8-a4cd-42b8-b344-402947778ee6</Id>
+				<Name>Ankleide</Name>
+				<State>Active</State>
+				<LCID>7ea4cae1-c72e-415e-b38d-ccace4f0a6ec</LCID>
+				<AcCtIds />
+				<SPts>
+					<Spt>
+						<Id>e32b7be2-f46c-4939-b77c-3c5b5562d66d</Id>
+						<Wdy>Sunday Thursday Saturday Friday Monday Tuesday Wednesday
+						</Wdy>
+						<Tm>2010-01-01T05:30:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>801e577d-0831-43ab-bcf6-099eaf96cf56</Id>
+								<AcId>20062c1d-e983-4132-ba94-af99b8483ad7</AcId>
+								<PtTmp>19</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>2229d29c-8dd7-4bec-a038-6ae6d99e82ae</Id>
+						<Wdy>Sunday Thursday Saturday Friday Monday Tuesday Wednesday
+						</Wdy>
+						<Tm>2010-01-01T07:30:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>b3f82d59-f177-42c7-98bb-3f3e4317a9eb</Id>
+								<AcId>20062c1d-e983-4132-ba94-af99b8483ad7</AcId>
+								<PtTmp>14</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+				</SPts>
+			</PF>
+			<PF xsi:type="EventProfile" IsVisible="true">
+				<Id>0bdae878-a7af-43a6-b362-cf940d2e33c5</Id>
+				<Name>Dimmer Ereignis 3</Name>
+				<State>Active</State>
+				<LCID>0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf</LCID>
+				<AcCtIds />
+				<AcStgs>
+					<AcStg xsi:type="DimmerActuatorSettings">
+						<Id>1cb865ad-d68a-43a5-b533-4f13848f6f14</Id>
+						<AcId>bf947644-6f71-4b04-a5d0-e593d124522d</AcId>
+						<SfOn>0</SfOn>
+						<SfOf>0</SfOf>
+						<OffTmr>0</OffTmr>
+						<DmLvl>100</DmLvl>
+					</AcStg>
+				</AcStgs>
+				<SStgs>
+					<DvTgr xsi:type="PushButtonSensorSettings">
+						<Id>2ef85d08-21d1-4345-b89a-78c54ab21d80</Id>
+						<LDId>45a9d7a0-9e49-4aa6-b552-9b7cfb1213c0</LDId>
+						<BtnAsgs>
+							<BtnAsg Index="0" Action="On" />
+							<BtnAsg Index="1" Action="Off" />
+						</BtnAsgs>
+					</DvTgr>
+					<DvTgr xsi:type="PushButtonSensorSettings">
+						<Id>e8d6ab4d-ce01-4c2d-a0ae-18b47ec58a30</Id>
+						<LDId>9b610664-cc04-442a-a58a-96ba0781afea</LDId>
+						<BtnAsgs>
+							<BtnAsg Index="0" Action="Off" />
+							<BtnAsg Index="1" Action="On" />
+						</BtnAsgs>
+					</DvTgr>
+				</SStgs>
+			</PF>
+			<PF xsi:type="TimeProfile" IsVisible="true">
+				<Id>b088af3a-7b92-4522-a660-ff15311aac9e</Id>
+				<Name>Kinderzimmer</Name>
+				<State>Active</State>
+				<LCID>350a8196-0ff9-434b-816b-e591aca9e6ab</LCID>
+				<AcCtIds />
+				<SPts>
+					<Spt>
+						<Id>70a11b4a-67cb-4150-9a2b-012fa313ce2d</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T17:00:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>b524eaf5-438a-4b65-aa03-7f97b49d9184</Id>
+								<AcId>b76e18a1-7de9-4cc4-b140-b2a3155d0ce0</AcId>
+								<PtTmp>20</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>84363c4c-9086-4213-9238-fbc01e967b85</Id>
+								<AcId>889613f1-3873-4a11-b1c7-1b393f8b6963</AcId>
+								<PtTmp>20</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+					<Spt>
+						<Id>4740dcd6-d0cd-4367-b19e-a963fbcd3713</Id>
+						<Wdy>Thursday Friday Monday Tuesday Wednesday</Wdy>
+						<Tm>2010-01-01T19:29:00</Tm>
+						<AcStgs>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>3717b9ac-007d-4303-99ff-b5ae87ead412</Id>
+								<AcId>b76e18a1-7de9-4cc4-b140-b2a3155d0ce0</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+							<AcStg xsi:type="RoomTemperatureActuatorSettings">
+								<Id>e2853768-7238-486e-adcf-ed24b8214a91</Id>
+								<AcId>889613f1-3873-4a11-b1c7-1b393f8b6963</AcId>
+								<PtTmp>15</PtTmp>
+								<WndRd>false</WndRd>
+							</AcStg>
+						</AcStgs>
+					</Spt>
+				</SPts>
+			</PF>
+		</PFs>
+		<AcCts>
+			<AcCt>
+				<Id>1372fdb2-ab59-4751-964a-086febd4302b</Id>
+				<Name>Temperatures in location</Name>
+				<LCID>21a31d15-168f-47f1-87d0-e9baeacfcbef</LCID>
+				<AcIds>
+					<guid>6129a701-5ba5-4a17-b703-47c5128f6ad1</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>a1267132-3a1e-4887-8da7-f8bd3f45c25e</Id>
+				<Name>Temperatures</Name>
+				<AcIds>
+					<guid>6129a701-5ba5-4a17-b703-47c5128f6ad1</guid>
+					<guid>c645db7a-4469-4096-9598-d3ce3af2c231</guid>
+					<guid>5b6aec0f-0073-4b8f-8df8-55d359dfde33</guid>
+					<guid>c7471a3d-751a-45dc-a467-dd88a4e9c0d6</guid>
+					<guid>12850f10-a320-4733-a2e0-6f5c835edd23</guid>
+					<guid>413b1399-7a09-4ac3-aebd-91687369f8a9</guid>
+					<guid>3cd16563-e9b4-47b1-b4b6-0ac7dd437f6b</guid>
+					<guid>b76e18a1-7de9-4cc4-b140-b2a3155d0ce0</guid>
+					<guid>889613f1-3873-4a11-b1c7-1b393f8b6963</guid>
+					<guid>41f3fb55-a28b-449a-9a96-86cc3a9ff632</guid>
+					<guid>20062c1d-e983-4132-ba94-af99b8483ad7</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>3a863720-f3ce-4083-8033-3952aa869538</Id>
+				<Name>Temperatures in location</Name>
+				<LCID>6a11d743-6986-4880-bfa4-3bed982c8725</LCID>
+				<AcIds>
+					<guid>c645db7a-4469-4096-9598-d3ce3af2c231</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>de688264-e3bc-4060-bd73-a329a2de3389</Id>
+				<Name>Temperatures in location</Name>
+				<LCID>01e2f1c7-1d02-4e3a-81de-746af53e24fc</LCID>
+				<AcIds>
+					<guid>5b6aec0f-0073-4b8f-8df8-55d359dfde33</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>34aa4463-7432-4607-9f90-6968cfcdb91e</Id>
+				<Name>Temperatures in location</Name>
+				<LCID>b012a54a-c789-4ec9-9fab-6b8188c4505e</LCID>
+				<AcIds>
+					<guid>c7471a3d-751a-45dc-a467-dd88a4e9c0d6</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>b94fc54a-5dcd-464d-9a87-4175e2f4b87c</Id>
+				<Name>Temperatures in location</Name>
+				<LCID>3c9784fa-1c88-4d35-ada0-89780466d4fc</LCID>
+				<AcIds>
+					<guid>12850f10-a320-4733-a2e0-6f5c835edd23</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>8d34e1e9-c399-4e34-9c95-39ccecf2a54c</Id>
+				<Name>Temperatures in location</Name>
+				<LCID>52ca89e3-61a8-4e2c-af73-1b0add810e26</LCID>
+				<AcIds>
+					<guid>413b1399-7a09-4ac3-aebd-91687369f8a9</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>c43f5af4-fb6a-413e-a18b-5372e203a0a8</Id>
+				<Name>Temperatures in location</Name>
+				<LCID>3e7ffe13-0991-4e49-9825-4097ff25ff2a</LCID>
+				<AcIds>
+					<guid>3cd16563-e9b4-47b1-b4b6-0ac7dd437f6b</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>edf479d4-cb9d-4d2a-8e9b-83a94330d2a2</Id>
+				<Name>Temperatures in location</Name>
+				<LCID>350a8196-0ff9-434b-816b-e591aca9e6ab</LCID>
+				<AcIds>
+					<guid>b76e18a1-7de9-4cc4-b140-b2a3155d0ce0</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>1481bf92-0b08-4ca9-affe-0ee25d82c4f3</Id>
+				<Name>Temperatures in location</Name>
+				<LCID>d40b326a-51c1-44c0-8bf0-015bfb27a14f</LCID>
+				<AcIds>
+					<guid>889613f1-3873-4a11-b1c7-1b393f8b6963</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>a59aec82-528c-4612-8bea-692e3be9f8e5</Id>
+				<Name>Temperatures in location</Name>
+				<LCID>0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf</LCID>
+				<AcIds>
+					<guid>41f3fb55-a28b-449a-9a96-86cc3a9ff632</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>b76352ed-d163-4be9-889c-6af8f95c169d</Id>
+				<Name>Temperatures in location</Name>
+				<LCID>7ea4cae1-c72e-415e-b38d-ccace4f0a6ec</LCID>
+				<AcIds>
+					<guid>20062c1d-e983-4132-ba94-af99b8483ad7</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>df849b95-d009-4708-974c-ba5f2db4ab17</Id>
+				<Name>DimmableLights</Name>
+				<AcIds>
+					<guid>4d15a6c1-188b-4b53-8f64-83b53ae1a578</guid>
+					<guid>80d48092-cbe2-4517-bf3b-7d72cea04bae</guid>
+					<guid>1e5db15c-ef67-4d77-82d0-88f4e02a42c8</guid>
+					<guid>beb47b9c-15f8-4d0c-b852-22c0c8cd7b2b</guid>
+					<guid>bf947644-6f71-4b04-a5d0-e593d124522d</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>caa532fa-bb40-4828-bd2a-e095825035c4</Id>
+				<Name>DimmableLights in location</Name>
+				<LCID>350a8196-0ff9-434b-816b-e591aca9e6ab</LCID>
+				<AcIds>
+					<guid>4d15a6c1-188b-4b53-8f64-83b53ae1a578</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>31496b50-32d2-4553-9a79-0606b7b064c8</Id>
+				<Name>DimmableLights in location</Name>
+				<LCID>d40b326a-51c1-44c0-8bf0-015bfb27a14f</LCID>
+				<AcIds>
+					<guid>80d48092-cbe2-4517-bf3b-7d72cea04bae</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>40690248-a364-460b-bd33-6200ea6c9dbd</Id>
+				<Name>DimmableLights in location</Name>
+				<LCID>6a11d743-6986-4880-bfa4-3bed982c8725</LCID>
+				<AcIds>
+					<guid>1e5db15c-ef67-4d77-82d0-88f4e02a42c8</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>d1a96ba0-1143-4772-b6c0-7d0c9e265fc8</Id>
+				<Name>Lights in location</Name>
+				<LCID>58c3920c-5d62-4eb6-a156-7c34d8d33872</LCID>
+				<AcIds>
+					<guid>c277ea26-2338-4fb0-af91-99e31f2af314</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>1b10fc60-2acc-4506-87e1-45fe7759c485</Id>
+				<Name>Lights</Name>
+				<AcIds>
+					<guid>c277ea26-2338-4fb0-af91-99e31f2af314</guid>
+					<guid>9edbc127-7b4f-4575-9f5e-344d57cd27ec</guid>
+					<guid>e7212e7b-7fa7-4758-940e-f0d528cdff4a</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>b89b5751-caf4-4649-9953-48497d4b2374</Id>
+				<Name>DimmableLights in location</Name>
+				<LCID>52ca89e3-61a8-4e2c-af73-1b0add810e26</LCID>
+				<AcIds>
+					<guid>beb47b9c-15f8-4d0c-b852-22c0c8cd7b2b</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>11fc2f06-8f9f-4cd2-8128-c92dae0ca690</Id>
+				<Name>Lights in location</Name>
+				<LCID>8ce9da40-40ab-4bd7-a430-31be994d2b8e</LCID>
+				<AcIds>
+					<guid>9edbc127-7b4f-4575-9f5e-344d57cd27ec</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>fe663d57-80f9-4c77-8cea-fd3f2807ec8b</Id>
+				<Name>Lights in location</Name>
+				<LCID>0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf</LCID>
+				<AcIds>
+					<guid>e7212e7b-7fa7-4758-940e-f0d528cdff4a</guid>
+				</AcIds>
+			</AcCt>
+			<AcCt>
+				<Id>0502b1d3-9d55-456d-a114-1785fabe08d4</Id>
+				<Name>DimmableLights in location</Name>
+				<LCID>0e6dd456-aaa8-4800-b3cb-d9ea2191d8cf</LCID>
+				<AcIds>
+					<guid>bf947644-6f71-4b04-a5d0-e593d124522d</guid>
+				</AcIds>
+			</AcCt>
+		</AcCts>
+	</BaseResponse>
+</Response>

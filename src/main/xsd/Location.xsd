@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+               jaxb:version="2.0" targetNamespace="http://www.example.org/Location"
+    xmlns="http://www.example.org/Location">
+
+<xs:annotation>
+  <xs:appinfo>
+    <jaxb:schemaBindings>
+      <jaxb:package name="org.openhab.binding.rwe.location"/>
+    </jaxb:schemaBindings>
+  </xs:appinfo>
+</xs:annotation>
+
+	<!-- Location -->
+	<xs:complexType name="Location">
+		<xs:sequence>
+			<xs:element name="Id" type="xs:string"></xs:element>
+			<xs:element name="Name" type="xs:string"></xs:element>
+			<xs:element name="Position" type="xs:int"></xs:element>
+			<xs:element name="RTyp" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

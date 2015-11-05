@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotificationList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" NotificationListId="4e1c9c92-c4c1-438d-bf24-6eeaaf6a5650">
+  <Notifications>
+    <LogicalDeviceStatesChangedNotification Version="1.70" NotificationId="df00639f-de76-4e7c-8b93-5fe2e156ec99">
+      <LogicalDeviceStates>
+        <LogicalDeviceState xsi:type="RoomTemperatureActuatorState" LID="3cd16563-e9b4-47b1-b4b6-0ac7dd437f6b" PtTmp="21.0" OpnMd="Auto" WRAc="False" />
+      </LogicalDeviceStates>
+    </LogicalDeviceStatesChangedNotification>
+    <LogicalDeviceStatesChangedNotification Version="1.70" NotificationId="dc8175ca-cc80-44be-957c-12475a89a5dc">
+      <LogicalDeviceStates>
+        <LogicalDeviceState xsi:type="RoomTemperatureSensorState" LID="024480dc-2f4b-4333-98c7-08deaca16ecc" Temperature="16.1" />
+      </LogicalDeviceStates>
+    </LogicalDeviceStatesChangedNotification>
+  </Notifications>
+</NotificationList>

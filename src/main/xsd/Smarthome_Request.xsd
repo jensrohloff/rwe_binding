@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" targetNamespace="http://www.example.org/Request"
+	xmlns="http://www.example.org/Request" jaxb:version="2.0"
+	xmlns:loc="http://www.example.org/Location" xmlns:states="http://www.example.org/LogicalDeviceStates"
+	xmlns:devices="http://www.example.org/LogicalDevices">
+
+
+	<xs:annotation>
+		<xs:appinfo>
+			<jaxb:schemaBindings>
+				<jaxb:package name="org.openhab.binding.rwe.request" />
+			</jaxb:schemaBindings>
+		</xs:appinfo>
+	</xs:annotation>
+	<xs:import namespace="http://www.example.org/Location"
+		schemaLocation="Location.xsd" />
+	<xs:import namespace="http://www.example.org/LogicalDeviceStates"
+		schemaLocation="LogicalDeviceStates.xsd" />
+	<xs:import namespace="http://www.example.org/LogicalDevices"
+		schemaLocation="LogicalDevices.xsd" />
+
+	<xs:element name="Request" type="Request" />
+
+	<xs:complexType name="Request">
+		<xs:sequence>
+			<xs:element name="BaseRequest" type="BaseRequest"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<xs:complexType name="BaseRequest" abstract="true">
+		<xs:attribute type="xs:float" name="Version" />
+		<xs:attribute type="xs:string" name="RequestId" />
+		<xs:attribute type="xs:string" name="SessionId" />
+	</xs:complexType>
+
+	<!-- LoginRequest -->
+	<xs:complexType name="LoginRequest">
+		<xs:complexContent>
+			<xs:extension base="BaseRequest">
+				<xs:attribute type="xs:string" name="UserName" />
+				<xs:attribute type="xs:string" name="Password" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- LogoutRequest -->
+	<xs:complexType name="LogoutRequest">
+		<xs:complexContent>
+			<xs:extension base="BaseRequest" />
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- NotificationRequest -->
+	<xs:complexType name="NotificationRequest">
+		<xs:complexContent>
+			<xs:extension base="BaseRequest">
+				<xs:sequence>
+					<xs:element type="action-type" name="Action" />
+					<xs:element type="notification-type" name="NotificationType" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:simpleType name="action-type">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Subscribe" />
+			<xs:enumeration value="Unsubscribe" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="notification-type">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="MessageUpdate" />
+			<xs:enumeration value="DeviceStateChanges" />
+			<xs:enumeration value="DeploymentChanges" />
+			<xs:enumeration value="ConfigurationChanges" />
+			<xs:enumeration value="Calibration" />
+			<xs:enumeration value="CustomApplication" />
+		</xs:restriction>
+	</xs:simpleType>		
+
+	<!-- GetAllLogicalDeviceStatesRequest -->
+	<xs:complexType name="GetAllLogicalDeviceStatesRequest">
+		<xs:complexContent>
+			<xs:extension base="BaseRequest">
+				<xs:attribute type="xs:int" name="BasedOnConfigVersion" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- GetAllLogicalDeviceStatesRequest -->
+	<xs:complexType name="GetEntitiesRequest">
+		<xs:complexContent>
+			<xs:extension base="BaseRequest" />
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- SetActuatorStatesRequest -->
+	<xs:complexType name="SetActuatorStatesRequest">
+		<xs:complexContent>
+			<xs:extension base="BaseRequest">
+				<xs:sequence>
+					<xs:element name="ActuatorStates">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="LogicalDeviceState" type="states:LogicalDeviceState"
+									maxOccurs="unbounded" minOccurs="0">
+
+								</xs:element>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute type="xs:int" name="BasedOnConfigVersion" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+
+</xs:schema>

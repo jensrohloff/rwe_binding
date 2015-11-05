@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+ targetNamespace="http://www.example.org/Notification"
+    xmlns="http://www.example.org/Notification"
+               jaxb:version="2.0"   xmlns:loc="http://www.example.org/Location"
+               xmlns:states="http://www.example.org/LogicalDeviceStates"
+               xmlns:devices="http://www.example.org/LogicalDevices">
+
+	
+	<xs:annotation>
+  <xs:appinfo>
+    <jaxb:schemaBindings >
+      <jaxb:package name="org.openhab.binding.rwe.notification"/>
+    </jaxb:schemaBindings>
+  </xs:appinfo>
+</xs:annotation>
+ <xs:import namespace="http://www.example.org/LogicalDeviceStates" schemaLocation="LogicalDeviceStates.xsd"/>
+  <xs:element name="NotificationList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Notifications">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LogicalDeviceStatesChangedNotification" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="LogicalDeviceStates">
+                      <xs:complexType>
+                        <xs:sequence>
+                         <xs:element name="LogicalDeviceState" type="states:LogicalDeviceState"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:float" name="Version"/>
+                  <xs:attribute type="xs:string" name="NotificationId"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="NotificationListId"/>
+    </xs:complexType>
+  </xs:element>
+	
+</xs:schema>

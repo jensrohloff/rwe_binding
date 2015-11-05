@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<request>
+<BaseRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="NotificationRequest" Version="1.70" RequestId="7af2ed16-f1d2-4d73-8c9e-e8b1df5e9cc0" SessionId="eba31af5-3e2e-4b9f-a62f-da604b928922">
+  <Action>Subscribe</Action>
+  <NotificationType>MessageUpdate</NotificationType>
+</BaseRequest>
+</request>

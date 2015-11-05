@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+               jaxb:version="2.0" targetNamespace="http://www.example.org/LogicalDeviceStates"
+    xmlns="http://www.example.org/LogicalDeviceStates">	
+    
+	<xs:annotation>
+  <xs:appinfo>
+    <jaxb:schemaBindings>
+      <jaxb:package name="org.openhab.binding.rwe.states"/>
+    </jaxb:schemaBindings>
+  </xs:appinfo>
+</xs:annotation>
+
+	<!-- LogicalDeviceState -->
+	<xs:complexType name="LogicalDeviceState" abstract="true">
+		<xs:attribute type="xs:string" name="LID" use="optional" />
+	</xs:complexType>
+
+	<!-- SwitchActuatorState -->
+	<xs:complexType name="SwitchActuatorState">
+		<xs:complexContent>
+			<xs:extension base="LogicalDeviceState">
+				<xs:attribute type="xs:string" name="IsOn" use="optional" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- DimmerActuatorState -->
+	<xs:complexType name="DimmerActuatorState">
+		<xs:complexContent>
+			<xs:extension base="LogicalDeviceState">
+				<xs:attribute type="xs:integer" name="DmLvl" use="optional" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- RoomTemperatureActuatorState -->
+	<xs:complexType name="RoomTemperatureActuatorState">
+		<xs:complexContent>
+			<xs:extension base="LogicalDeviceState">
+				<xs:attribute type="xs:float" name="PtTmp" use="optional" />
+				<xs:attribute type="xs:string" name="OpnMd" use="optional" />
+				<xs:attribute type="xs:string" name="WRAc" use="optional" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- RoomTemperatureSensorState -->
+	<xs:complexType name="RoomTemperatureSensorState">
+		<xs:complexContent>
+			<xs:extension base="LogicalDeviceState">
+				<xs:attribute type="xs:float" name="Temperature" use="optional" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- RoomHumiditySensorState -->
+	<xs:complexType name="RoomHumiditySensorState">
+		<xs:complexContent>
+			<xs:extension base="LogicalDeviceState">
+				<xs:attribute type="xs:float" name="Humidity" use="optional" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- LuminanceSensorState -->
+	<xs:complexType name="LuminanceSensorState">
+		<xs:complexContent>
+			<xs:extension base="LogicalDeviceState">
+				<xs:sequence>
+					<xs:element type="xs:integer" name="Luminance" minOccurs="0" />
+					<xs:element name="LuminanceProperty" minOccurs="0">
+						<xs:complexType>
+							<xs:simpleContent>
+								<xs:extension base="xs:string">
+									<xs:attribute type="xs:string" name="Name" />
+									<xs:attribute type="xs:byte" name="Value" />
+								</xs:extension>
+							</xs:simpleContent>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- WindowDoorSensorState -->
+	<xs:complexType name="WindowDoorSensorState">
+		<xs:complexContent>
+			<xs:extension base="LogicalDeviceState">
+				<xs:sequence>
+					<xs:element type="xs:boolean" name="IsOpen" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+</xs:schema>

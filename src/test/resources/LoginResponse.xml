@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<BaseResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:type="LoginResponse" Version="1.70"
+		CorrespondingRequestId="ba571468-e98f-4ea1-a07f-5ef83fb98ad1"
+		SessionId="927175e7-c7cc-49fc-8f26-276e1fbb2e0d"
+		CurrentConfigurationVersion="217" ShcOperatingMode="Normal"
+		TokenHash="e4aa02801c93517a83a0825cb19ba2ad">
+		<UserRoles>
+			<ShcRole>
+				<Id>f3ebfaea-e293-47c3-835c-0e429fed8fdf</Id>
+				<Name>Owner</Name>
+			</ShcRole>
+		</UserRoles>
+	</BaseResponse>
+</Response>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<request>
+	<BaseRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:type="SetActuatorStatesRequest" Version="1.70"
+		RequestId="be17cc4d-aacd-41b9-a882-69a5222ff46e" SessionId="55238586-054c-4caf-91c1-e7841dee8f15"
+		BasedOnConfigVersion="217">
+		<ActuatorStates>
+			<LogicalDeviceState xsi:type="DimmerActuatorState"
+				LID="1e5db15c-ef67-4d77-82d0-88f4e02a42c8" DmLvl="10" />
+		</ActuatorStates>
+	</BaseRequest>
+</request>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<request>
+	<BaseRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:type="LoginRequest" Version="1.70" RequestId="be17cc4d-aacd-41b9-a882-69a5222ff46e"
+		UserName="jensrohloff" Password="my-password" />
+</request>

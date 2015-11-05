@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<LDs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<LD xsi:type="ThermostatActuator" Name="Heizkörperthermostat 1"
+				LCID="21a31d15-168f-47f1-87d0-e9baeacfcbef">
+				<Id>2dd955e6-8974-4923-b19e-e4641989b789</Id>
+				<BDId>36e0ed4e-0b2d-4700-b7f7-169a27f9a6e1</BDId>
+				<ActCls>Temperature</ActCls>
+			</LD>			
+	</LDs>
